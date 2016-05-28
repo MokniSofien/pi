@@ -21,7 +21,7 @@ body
 #top
 {
    background-color: transparent;
-   background-image: url(images/bg1.png);
+   background-image: url(images/accueilpng.png);
    background-repeat: no-repeat;
    background-position: center top;
    background-size: cover;
@@ -328,7 +328,7 @@ body
 #Layer11
 {
    background-color: transparent;
-   background-image: url(images/image%204.png);
+   background-image: url(images/image204.png);
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
@@ -702,7 +702,7 @@ body
    background-color: transparent;
 }
 #com {
-	background-color: #c2c2c2;
+	background-color: #efeff3;
     float: left;
     position: relative;
     text-align: left;
@@ -712,7 +712,7 @@ body
     z-index: 59;
 }
 #com1 {
-	background-color: #c2c2c2;
+	background-color: #efeff3;
     float: left;
     position: relative;
     text-align: left;
@@ -722,7 +722,7 @@ body
     z-index: 59;
 }
 #com2 {
-	background-color: #c2c2c2;
+	background-color: #efeff3;
     float: left;
     position: relative;
     text-align: left;
@@ -732,7 +732,7 @@ body
     z-index: 59;
 }
 #com3 {
-	background-color: #c2c2c2;
+	background-color: #efeff3;
     float: left;
     position: relative;
     text-align: left;
