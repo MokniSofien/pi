@@ -57,6 +57,7 @@ function ValidateLayer2(theForm)
 <div id="wb_Text11">
 <span style="color:#00BFFF;font-family:Arial;font-size:17px;"><strong>Analyses et rapports adapter à a vos besoins</strong></span></div>
 <div id="Layer3">
+  <div class="ligne_verticale" ></div>
    <div id="wb_Image14">
       <img src="../images/5.png" id="Image14" alt=""></div>
    <div id="wb_Image15">
@@ -66,6 +67,7 @@ function ValidateLayer2(theForm)
    <div id="wb_Image6">
       <img src="../images/2.png" id="Image6" alt=""></div>
    <div id="wb_Image13">
+ 
       <img src="../images/6.png" id="Image13" alt=""></div>
    <div id="wb_Image12">
       <img src="../images/7.png" id="Image12" alt=""></div>
@@ -174,6 +176,8 @@ function ValidateLayer2(theForm)
 </div>
 <!--end header-->
 <div id="Layer4">
+<div id="wb_Text32">
+ <span style="color:#FFFFFF;font-family:Arial;font-size:16px;">S'INSCRIRE AU NEWSLETTER</span></div>
    <textarea name="TextArea1" id="TextArea2" rows="0" cols="56" placeholder="Email *"></textarea>
    
   <input type="image" id="Button1" src="../images/news.png">

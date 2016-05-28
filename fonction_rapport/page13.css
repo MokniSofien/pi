@@ -5,6 +5,17 @@ div#container
    margin: 0 auto 0 auto;
    text-align: left;
 }
+.ligne_verticale
+{   
+ position: absolute;
+	top:83px;
+    width:5px;
+	left:105px;
+    border-left:1px solid gray;
+	border-color:#E5E9EB;
+    height:1350px;
+	
+}
 body
 {
    background-color: #FFFFFF;
@@ -564,7 +575,7 @@ body
 #wb_Image11
 {
    position: absolute;
-   left: 5%;
+   left: 4%;
    top: 22%;
    width: 7%;
    height: 3%;
@@ -928,11 +939,22 @@ body
 #wb_Image9
 {
    position: absolute;
-   left: 5%;
+   left: 4%;
    top: 79%;
    width: 6%;
    height: 2%;
    z-index: 31;
+}
+#wb_Text32
+{
+	   position: relative;
+   left: 25%;
+    top: 93px;
+   width: 34%;
+   height: 1%;
+   z-index: 33;
+   text-align: left;
+  opacity:0.5;
 }
 #wb_Text25
 {
@@ -1273,7 +1295,7 @@ div#container
 }
 #wb_Image10
 {
-   left: 6%;
+   left: 5%;
    top: 60%;
    width: 4%;
    height: 4%;
@@ -1291,16 +1313,14 @@ div#container
 }
 #wb_Image12
 {
-   left: 6%;
+   left: 5%;
    top: 41%;
    width: 6%;
    height: 3%;
    visibility: visible;
    display: inline;
 }
-#Image13{
-	I
-}
+
 #wb_Image13
 {
    left: 5%;
