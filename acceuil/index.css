@@ -17,7 +17,14 @@ body
    text-align: center;
    
 }
+#rea{
+	position:relative;
+	margin:auto;
+	bottom:80px; 
+	margin-left: 38%;
 
+	
+}
 #top
 {
    background-color: transparent;
@@ -1146,9 +1153,9 @@ body
 {
    position: absolute;
    left: 475px;
-   top: 185px;
-   width: 589px;
-   height: 124px;
+   top: 200px;
+   width: 513px;
+   height: 83px;
    z-index: 93;
 }
 #Layer13
@@ -2461,6 +2468,7 @@ display: inline;}
    visibility: visible;
    display: inline;
 }
+
 #Button3
 {
    left: 87px;
@@ -2473,9 +2481,9 @@ display: inline;}
 #wb_Image17
 {
    left: 75px;
-   top: 185px;
-   width: 589px;
-   height: 124px;
+  top: 200px;
+  width: 513px;
+   height: 83px;
    visibility: visible;
    display: inline;
 }
