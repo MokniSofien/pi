@@ -20,7 +20,8 @@ body
 #top
 {
    background-color: transparent;
-   background-image: url(images/bg1.png);
+   background-image: url(images/accueilpng.png);
+   
    background-repeat: no-repeat;
    background-position: center top;
    background-size: cover;
