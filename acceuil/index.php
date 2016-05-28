@@ -330,6 +330,9 @@ function autoResize(id){
 <div id="Layer13" title="page2">
 <div id="Layer13_Container">
 <div id="wb_Image17">
+<div>
+<span id="rea" style="color:#FFF;font-family:Exo;font-size:21px;">Réalisations</span>
+</div>
 <img src="images/U.png" id="Image17" alt=""></div>
 </div>
 </div>
