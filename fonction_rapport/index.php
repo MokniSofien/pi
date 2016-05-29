@@ -52,36 +52,35 @@ function ValidateLayer2(theForm)
       <img src="../images/10.png" id="Image9" alt=""></div>
    <div id="wb_Text12">
       <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>5</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Analyses</strong></span></div>
-   <div id="wb_Text13">
-      <span style="color:#00BFFF;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
+
    <div id="wb_Text14">
-      <span style="color:#000000;font-family:Exo;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
+      <span style="color:#000000;font-family:Exo;font-size:13px;">L’analyse et les statistiques de tous vos départements se trouvent ici dans le sous-onglet analyses de l’onglet Rapports. Vous pourrez y consulter l’état de votre/vos sociétés à l’aide des statistiques s’y trouvant vous pourrez prendre les décisions les plus importantes sur des faits qui se trouvent sous vos yeux.</span></div>
    <div id="wb_Image7">
       <img src="../images/1.png" id="Image7" alt=""></div>
    <div id="wb_Text17">
-      <span style="color:#000000;font-family:Exo;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
-   <div id="wb_Text16">
-      <span style="color:#00BFFF;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
+      <span style="color:#000000;font-family:Exo;font-size:13px;">Vous trouverez sous cet onglet la liste des rapports de vos ventes : les ventes les plus importantes, les statistiques de ventes…
+Avec ses derniers ajouts, CoffeePark se positionne pour devenir l’une des meilleures solutions de gestion de projets collaborative offrant toutes les caractéristiques dont les entreprises de tous types et tailles ont besoin pour assurer le contrôle et la gestion efficace des ventes.</span></div>
+
    <div id="wb_Text15">
       <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>2</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Ventes</strong></span></div>
    <div id="wb_Text18">
       <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>3</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Dépenses </strong></span></div>
-   <div id="wb_Text19">
-      <span style="color:#00BFFF;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
+
    <div id="wb_Text20">
-      <span style="color:#000000;font-family:Exo;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
+      <span style="color:#000000;font-family:Exo;font-size:13px;">Sous  cet onglet vous trouverez, la liste des rapports de vos dépenses : les dépenses les plus importantes, les types de dépenses, les variations de dépenses au cours du temps…
+Vous retrouverez aussi  toutes les données qui les définissent, Code, Fournisseur, Date due, Statut … mais aussi vous permet de modifier supprimer et aussi d’ajouter de nouvelles dépenses.</span></div>
    <div id="wb_Text21">
       <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>4</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Projets</strong></span></div>
-   <div id="wb_Text22">
-      <span style="color:#00BFFF;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
+
    <div id="wb_Text23">
-      <span style="color:#000000;font-family:Exo;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
+      <span style="color:#000000;font-family:Exo;font-size:13px;">Ici vous trouvez les rapports concernant vos projets : l’état d’avancement, les participants, les statistiques d’activités des employés concernés par le projet en question…
+Un outil simple et flexible comme CoffeePark sera également un excellent support dans la mise en place de votre système de gestion du projet.</span></div>
    <div id="wb_Text26">
-      <span style="color:#000000;font-family:Exo;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
+      <span style="color:#000000;font-family:Exo;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…
+Votre système de gestion  n’a pas à être compliqué. Au contraire ! Plus il sera simple, plus vous aurez des chances de l’utiliser et de bénéficier de ses avantages en termes d’amélioration de l’efficacité et de la productivité.</span></div>
    <div id="wb_Text24">
       <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>1</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Listes</strong></span></div>
-   <div id="wb_Text25">
-      <span style="color:#00BFFF;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
+
 </div>
 </div>
 <!-- header-->

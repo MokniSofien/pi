@@ -161,12 +161,13 @@ function autoResize(id){
 <div id="top">
 <div id="page1">
 <div id="page1_Container">
+
+<div id="Layer4">
+<div id="Layer4_Container">
 <div id="wb_Text7">
 <span style="color:#4EB0CA;font-family:Arial;font-size:20px;">Demandez votre version d’essaie gratuitement ( 30 Jours)</span></div>
 <div id="wb_Text6">
 <span style="color:#FFFFFF;font-family:Arial;font-size:27px;">Solution de gestion des Restos Café Lounge</span></div>
-<div id="Layer4">
-<div id="Layer4_Container">
 </div>
 </div>
 <form action="abonner.php" method="POST">
@@ -342,8 +343,6 @@ function autoResize(id){
 
 <div id="wb_Text31">
 <span style="color:#707070;font-family:Arial;font-size:13px;">cofeepark &#0169; 2015. </span></div>
-
-
 
 
 

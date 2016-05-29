@@ -417,6 +417,15 @@ body
    margin: 0;
    text-align: left;
 }
+#wb_Text26{
+      position: absolute;
+    left: 17%;
+    top: 7%;
+    width: 34%;
+    height: 9%;
+    z-index: 36;
+    text-align: left;
+}
 #wb_Text19 div
 {
    text-align: left;
