@@ -162,9 +162,9 @@ function autoResize(id){
 <div id="page1">
 <div id="page1_Container">
 <div id="wb_Text7">
-<span style="color:#4EB0CA;font-family:Arial;font-size:20px;">Demandez votre version d’essaie gratuitement ( 30 Jours)</span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Demandez votre version d’essaie gratuitement ( 30 Jours)</span></div>
 <div id="wb_Text6">
-<span style="color:#FFFFFF;font-family:Arial;font-size:27px;">Solution de gestion des Restos Café Lounge</span></div>
+<span style="color:#FFFFFF;font-family:Exo;font-size:27px;">Solution de gestion des Restos Café Lounge</span></div>
 <div id="Layer4">
 <div id="Layer4_Container">
 </div>
@@ -179,7 +179,7 @@ function autoResize(id){
 <div id="Layer3" title="page2">
 <div id="Layer3_Container">
 <div id="wb_Text9">
-<span style="color:#000000;font-family:Arial;font-size:20px;">Gérez vos points de vente en simple clique</span></div>
+<span style="color:#000000;font-family:Exo;font-size:20px;">Gérez vos points de vente en simple clique</span></div>
 <div id="Layer7">
 <div id="wb_Text13">
 <span style="color:#505050;font-family:Exo;font-size:13px;">Coffee Park vous offre une solution de gestion adaptable selon vos supports</span></div>
@@ -281,25 +281,25 @@ function autoResize(id){
 <div id="wb_Image10">
 <img src="images/cal%20min.png" id="Image10" alt=""></div>
 <div id="wb_Text24">
-<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Demo user</span></div>
+<span style="color:#4EB1CB;font-family:Exo;font-size:8px;">Demo user</span></div>
 <div id="wb_Text25">
-<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Demo user</span></div>
+<span style="color:#4EB1CB;font-family:Exo;font-size:8px;">Demo user</span></div>
 <div id="wb_Text26">
-<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Demo user</span></div>
+<span style="color:#4EB1CB;font-family:Exo;font-size:8px;">Demo user</span></div>
 <div id="wb_Image12">
 <img src="images/cal%20min.png" id="Image12" alt=""></div>
 <div id="wb_Image13">
 <img src="images/admin.png" id="Image13" alt=""></div>
 <div id="wb_Text27">
-<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Demo user</span></div>
+<span style="color:#4EB1CB;font-family:Exo;font-size:8px;">Demo user</span></div>
 <div id="wb_Text28">
-<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Demo user</span></div>
+<span style="color:#4EB1CB;font-family:Exo;font-size:8px;">Demo user</span></div>
 <div id="wb_Image14">
 <img src="images/cal%20min.png" id="Image14" alt=""></div>
 <div id="wb_Image15">
 <img src="images/admin.png" id="Image15" alt=""></div>
 <div id="wb_Text29">
-<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Demo user</span></div>
+<span style="color:#4EB1CB;font-family:Exo;font-size:8px;">Demo user</span></div>
 </div>
 </div>
 <div id="Layer11" title="page2">
@@ -340,15 +340,15 @@ function autoResize(id){
 <div id="PageFooter1_Container">
 <div id="Layer22">
 <div id="wb_Text31">
-<span style="color:#707070;font-family:Arial;font-size:13px;">cofeepark &#0169; 2015. </span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
 <div id="wb_Text32">
-<span style="color:#707070;font-family:Arial;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
 <div id="wb_Text33">
-<span style="color:#707070;font-family:Arial;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
 <div id="wb_Text34">
-<span style="color:#4EB0CA;font-family:Arial;font-size:20px;">Get In Touch With Us</span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
 <div id="wb_Text35">
-<span style="color:#707070;font-family:Arial;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
 <div id="wb_Image18">
 <img src="images/phone.png" id="Image18" alt=""></div>
 </div>

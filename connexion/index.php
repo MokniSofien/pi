@@ -34,7 +34,7 @@ else { }
 <div id="wb_Text1" style="position:absolute;left:97px;top:22px;width:103px;height:25px;z-index:1;text-align:left;">
 <span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Connexion</span></div>
 <div id="wb_Text2" style="position:absolute;left:86px;top:238px;width:95px;height:15px;z-index:2;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:12px;">Rappelles toi</span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:12px;">Rappelles toi</span></div>
 <input type="checkbox" id="Checkbox1" name="Checkbox1" value="on" style="position:absolute;left:54px;top:234px;z-index:5;">
 
 
@@ -52,7 +52,7 @@ else { }
 <div id="wb_Image2" style="position:absolute;left:60px;top:122px;width:16px;height:17px;z-index:8;">
 <img src="images/pas.png" id="Image2" alt=""></div>
 <div id="wb_Text3" style="position:absolute;left:54px;top:270px;width:216px;height:30px;z-index:9;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:12px;">Mot de passe oublier&nbsp; mot de passe ?<br></span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:12px;">Mot de passe oublier&nbsp; mot de passe ?<br></span></div>
 </div>
 </body>
 </html>

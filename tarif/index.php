@@ -56,69 +56,69 @@ function ValidateLayer2(theForm)
 <body>
 <div id="container">
 <div id="wb_Text19">
-<span style="color:#000000;font-family:Arial;font-size:15px;"><strong>Des offres adaptées à tous les besoins</strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:15px;"><strong>Des offres adaptées à tous les besoins</strong></span></div>
 <div id="Layer7">
 <div id="wb_Image6">
 <img src="../images/lam.png" id="Image6" alt=""></div>
 <div id="wb_Text14">
-<span style="color:#000000;font-family:Arial;font-size:15px;"><strong>Basic </strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br>Utilisateurs et projets supplémentaires<br><br>Possibilité d'ajouter des packs de 5 utilisateurs et/ou projets supplémentaires sur votre abonnement.</span></div>
+<span style="color:#000000;font-family:Exo;font-size:15px;"><strong>Basic </strong></span><span style="color:#000000;font-family:Exo;font-size:13px;"><br><br>Utilisateurs et projets supplémentaires<br><br>Possibilité d'ajouter des packs de 5 utilisateurs et/ou projets supplémentaires sur votre abonnement.</span></div>
 </div>
 <div id="Layer8">
 <div id="wb_Image7">
 <img src="../images/lam.png" id="Image7" alt=""></div>
 <div id="wb_Text20">
-<span style="color:#000000;font-family:Arial;font-size:15px;"><strong>Business</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br>Utilisateurs et projets supplémentaires<br><br>Possibilité d'ajouter des packs de 10 utilisateurs et/ou projets supplémentaires sur votre abonnement.</span></div>
+<span style="color:#000000;font-family:Exo;font-size:15px;"><strong>Business</strong></span><span style="color:#000000;font-family:Exo;font-size:13px;"><br><br>Utilisateurs et projets supplémentaires<br><br>Possibilité d'ajouter des packs de 10 utilisateurs et/ou projets supplémentaires sur votre abonnement.</span></div>
 </div>
 <div id="Layer9">
 <div id="wb_Image9">
 <img src="../images/lam.png" id="Image9" alt=""></div>
 <div id="wb_Text21">
-<span style="color:#000000;font-family:Arial;font-size:15px;"><strong>Enterprise</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br>Utilisateurs et projets supplémentaires<br><br>Possibilité d'ajouter des packs de 20 utilisateurs et/ou projets supplémentaires sur votre abonnement.</span></div>
+<span style="color:#000000;font-family:Exo;font-size:15px;"><strong>Enterprise</strong></span><span style="color:#000000;font-family:Exo;font-size:13px;"><br><br>Utilisateurs et projets supplémentaires<br><br>Possibilité d'ajouter des packs de 20 utilisateurs et/ou projets supplémentaires sur votre abonnement.</span></div>
 </div>
 <div id="Layer10">
 <div id="Layer10_Container">
 <table  id="Table1">
 <tr>
-<td class="ce"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> </span></td>
-<td class="ce"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> <strong>Basic</strong></span></td>
-<td class="ce"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong>Business</strong></span></td>
-<td class="ce"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> <strong>Enterprise</strong></span></td>
+<td class="ce"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> </span></td>
+<td class="ce"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> <strong>Basic</strong></span></td>
+<td class="ce"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"><strong>Business</strong></span></td>
+<td class="ce"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> <strong>Enterprise</strong></span></td>
 </tr>
 <tr>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong> Prix par utilisateur / mois<br>(engagement annuel)</strong></span></td>
-<td class="cell0"><span style="color:#00BFFF;font-family:Arial;font-size:25px;line-height:19px;"><strong> 50 $</strong></span></td>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:19px;"> </span><span style="color:#00BFFF;font-family:Arial;font-size:25px;line-height:19px;"><strong> 70 $<br></strong></span></td>
-<td class="cell1"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:19px;"> </span><span style="color:#00BFFF;font-family:Arial;font-size:25px;line-height:19px;"><strong> 100 $<br></strong></span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"><strong> Prix par utilisateur / mois<br>(engagement annuel)</strong></span></td>
+<td class="cell0"><span style="color:#00BFFF;font-family:Exo;font-size:25px;line-height:19px;"><strong> 50 $</strong></span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:19px;"> </span><span style="color:#00BFFF;font-family:Exo;font-size:25px;line-height:19px;"><strong> 70 $<br></strong></span></td>
+<td class="cell1"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:19px;"> </span><span style="color:#00BFFF;font-family:Exo;font-size:25px;line-height:19px;"><strong> 100 $<br></strong></span></td>
 </tr>
 <tr>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong> Prix par utilisateur / mois<br>(engagement mensuel)</strong></span></td>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong> 55 $</strong></span></td>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong> 75 $</strong></span></td>
-<td class="cell1"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong> 105 $</strong></span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"><strong> Prix par utilisateur / mois<br>(engagement mensuel)</strong></span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"><strong> 55 $</strong></span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"><strong> 75 $</strong></span></td>
+<td class="cell1"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"><strong> 105 $</strong></span></td>
 </tr>
 <tr>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong> Nombre d'utilisateurs</strong></span></td>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 5</span></td>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 10</span></td>
-<td class="cell1"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 20</span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"><strong> Nombre d'utilisateurs</strong></span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 5</span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 10</span></td>
+<td class="cell1"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 20</span></td>
 </tr>
 <tr>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong> Nombre de projets ouverts</strong></span></td>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 5</span></td>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 10</span></td>
-<td class="cell1"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 20</span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"><strong> Nombre de projets ouverts</strong></span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 5</span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 10</span></td>
+<td class="cell1"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 20</span></td>
 </tr>
 <tr>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong> Nombre de projets archivés</strong></span></td>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 5</span></td>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 10</span></td>
-<td class="cell1"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 20</span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"><strong> Nombre de projets archivés</strong></span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 5</span></td>
+<td class="cell0"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 10</span></td>
+<td class="cell1"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 20</span></td>
 </tr>
 <tr>
-<td class="cell2"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong> Espace de stockage</strong></span></td>
-<td class="cell2"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 5G</span></td>
-<td class="cell2"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 10G</span></td>
-<td class="cell3"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 100G</span></td>
+<td class="cell2"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"><strong> Espace de stockage</strong></span></td>
+<td class="cell2"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 5G</span></td>
+<td class="cell2"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 10G</span></td>
+<td class="cell3"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 100G</span></td>
 </tr>
 </table>
 </div>
@@ -246,14 +246,14 @@ function autoResize(id){
 
 <div id="Layer4">
 <div id="wb_Text15">
-<span style="color:#000000;font-family:Arial;font-size:19px;">50 $</span></div>
+<span style="color:#000000;font-family:Exo;font-size:19px;">50 $</span></div>
 <a href="../panier_connexion/page8.html"><input type="submit" id="Button3" name="Commander" value="Commander"></a>
 <div id="wb_Text16">
-<span style="color:#000000;font-family:Arial;font-size:19px;">Version Basic</span></div>
+<span style="color:#000000;font-family:Exo;font-size:19px;">Version Basic</span></div>
 <div id="wb_Text17">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>5 Utilisateur/mois<br><br>basé sur un engagement<br>annuel pour 5 utilisateurs<br>5 utilisateurs<br><br>5 projets<br><br>5 Go de stockage</strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>5 Utilisateur/mois<br><br>basé sur un engagement<br>annuel pour 5 utilisateurs<br>5 utilisateurs<br><br>5 projets<br><br>5 Go de stockage</strong></span></div>
 <div id="wb_Text18">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Gestion de projets<br>Suivi du temps<br>Collaboration<br>Gestion des dépenses<br>Facturation</strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>Gestion de projets<br>Suivi du temps<br>Collaboration<br>Gestion des dépenses<br>Facturation</strong></span></div>
 <hr id="Line1">
 <hr id="Line2">
 <div id="wb_Image8">
@@ -262,14 +262,14 @@ function autoResize(id){
 </div>
 <div id="Layer5">
 <div id="wb_Text6">
-<span style="color:#000000;font-family:Arial;font-size:19px;"> 70 $</span></div>
+<span style="color:#000000;font-family:Exo;font-size:19px;"> 70 $</span></div>
 <a href="../panier_connexion/page8.html"><input type="submit" id="Button1" name="Commander" value="Commander"></a>
 <div id="wb_Text7">
-<span style="color:#000000;font-family:Arial;font-size:19px;">Version Business</span></div>
+<span style="color:#000000;font-family:Exo;font-size:19px;">Version Business</span></div>
 <div id="wb_Text8">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>10 Utilisateur/mois<br><br>basé sur un engagement<br>annuel pour 10 utilisateurs<br>10 utilisateurs<br><br>10 projets<br><br>10  Go de stockage</strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>10 Utilisateur/mois<br><br>basé sur un engagement<br>annuel pour 10 utilisateurs<br>10 utilisateurs<br><br>10 projets<br><br>10  Go de stockage</strong></span></div>
 <div id="wb_Text9">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Gestion de projets<br>Suivi du temps<br>Collaboration<br>Gestion des dépenses<br>Facturation</strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>Gestion de projets<br>Suivi du temps<br>Collaboration<br>Gestion des dépenses<br>Facturation</strong></span></div>
 <hr id="Line3">
 <hr id="Line4">
 <div id="wb_Image4">
@@ -277,14 +277,14 @@ function autoResize(id){
 </div>
 <div id="Layer6">
 <div id="wb_Text10">
-<span style="color:#000000;font-family:Arial;font-size:19px;">105$</span></div>
+<span style="color:#000000;font-family:Exo;font-size:19px;">105$</span></div>
 <a href="../panier_connexion/page8.html"><input type="submit" id="Button2" name="Commander" value="Commander"></a>
 <div id="wb_Text11">
-<span style="color:#000000;font-family:Arial;font-size:19px;">Version Enterprise</span></div>
+<span style="color:#000000;font-family:Exo;font-size:19px;">Version Enterprise</span></div>
 <div id="wb_Text12">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>20 Utilisateur/mois<br><br>basé sur un engagement<br>annuel pour 20 utilisateurs<br>20 utilisateurs<br><br>20 projets<br><br>100 Go de stockage</strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>20 Utilisateur/mois<br><br>basé sur un engagement<br>annuel pour 20 utilisateurs<br>20 utilisateurs<br><br>20 projets<br><br>100 Go de stockage</strong></span></div>
 <div id="wb_Text13">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Gestion de projets<br>Suivi du temps<br>Collaboration<br>Gestion des dépenses<br>Facturation</strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>Gestion de projets<br>Suivi du temps<br>Collaboration<br>Gestion des dépenses<br>Facturation</strong></span></div>
 <hr id="Line5">
 <hr id="Line6">
 <div id="wb_Image5">
@@ -296,15 +296,15 @@ function autoResize(id){
 <div id="PageFooter1_Container">
 <div id="Layer11">
 <div id="wb_Text22">
-<span style="color:#707070;font-family:Arial;font-size:13px;">cofeepark &#0169; 2015. </span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
 <div id="wb_Text23">
-<span style="color:#707070;font-family:Arial;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
 <div id="wb_Text24">
-<span style="color:#707070;font-family:Arial;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
 <div id="wb_Text25">
-<span style="color:#4EB0CA;font-family:Arial;font-size:20px;">Get In Touch With Us</span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
 <div id="wb_Text26">
-<span style="color:#707070;font-family:Arial;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
 <div id="wb_Image10">
 <img src="../images/phone.png" id="Image10" alt=""></div>
 </div>

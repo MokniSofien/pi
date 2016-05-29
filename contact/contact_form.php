@@ -55,11 +55,11 @@ function ValidateLayer2(theForm)
 <body>
 <div id="container">
 <div id="wb_Text19" style="position:absolute;left:706px;top:92px;width:243px;height:16px;z-index:55;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:13px;">7 Days a week from 9:00 am to 7:00 pm</span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;">7 Days a week from 9:00 am to 7:00 pm</span></div>
 <div id="wb_Text20" style="position:absolute;left:44px;top:92px;width:266px;height:16px;z-index:56;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
 <div id="wb_Text21" style="position:absolute;left:417px;top:92px;width:183px;height:16px;z-index:57;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">800-2345-678;&nbsp; 800-2345-679</span></div>
 <div id="wb_Image10" style="position:absolute;left:401px;top:94px;width:12px;height:12px;z-index:58;">
 <img src="images/2xwsuc0swk.jpg" id="Image10" alt=""></div>
 <div id="wb_Image11" style="position:absolute;left:689px;top:95px;width:12px;height:12px;z-index:59;">
@@ -77,9 +77,9 @@ function ValidateLayer2(theForm)
 <div id="Layer1" >
 <ul>
 <div id="wb_Text1" >
-<span style="color:#505050;font-family:Arial;font-size:13px;"><li><a href="http://localhost/travail/site/list_blog">Bloge</a> </li></span></div>
+<span style="color:#505050;font-family:Exo;font-size:13px;"><li><a href="http://localhost/travail/site/list_blog">Bloge</a> </li></span></div>
 <div id="wb_Text4" >
-<span style="color:#505050;font-family:Arial;font-size:13px;"><li><a href ="http://localhost/travail/site/fonction">Fonctionalités</a> <ul>
+<span style="color:#505050;font-family:Exo;font-size:13px;"><li><a href ="http://localhost/travail/site/fonction">Fonctionalités</a> <ul>
 
 			<li><a href="#">lien sous menu 1</a></li>
 			<li><a href="#">lien sous menu 1</a></li>
@@ -88,7 +88,7 @@ function ValidateLayer2(theForm)
 			
 		</ul></li></span></div>
 <div id="wb_Text5" >
-<span style="color:#505050;font-family:Arial;font-size:13px;"><li><a href="http://localhost/travail/site/acceuil">Accueil</span></li></div>
+<span style="color:#505050;font-family:Exo;font-size:13px;"><li><a href="http://localhost/travail/site/acceuil">Accueil</span></li></div>
 <div id="Layer2" >
 <textarea name="TextArea1" id="TextArea1" style="position:absolute;left:4px;top:5px;width:179px;height:19px;z-index:0;" rows="0" cols="27"></textarea>
 <div id="wb_Image2" >
@@ -113,9 +113,9 @@ function ValidateLayer2(theForm)
 		<div id="profil"><img id="im_profil" src="images/admin.png"></div>
 </div>
 <div id="wb_Text2">
-<span style="color:#505050;font-family:Arial;font-size:13px;"><li><a href="http://localhost/travail/site/tarif" >Tarifs</a> </li></span></div>
+<span style="color:#505050;font-family:Exo;font-size:13px;"><li><a href="http://localhost/travail/site/tarif" >Tarifs</a> </li></span></div>
 <div id="wb_Text3" >
-<span style="color:#505050;font-family:Arial;font-size:13px;"><li><a href="http://localhost/travail/site/contact" >Contact</a></li> </span></div>
+<span style="color:#505050;font-family:Exo;font-size:13px;"><li><a href="http://localhost/travail/site/contact" >Contact</a></li> </span></div>
 <ul>
 </div>
 </div>
@@ -131,23 +131,23 @@ function ValidateLayer2(theForm)
 <div id="Layer3" style="position:absolute;text-align:center;left:0px;top:517px;width:46%;height:516px;z-index:62;">
 <div id="Layer3_Container" style="width:512px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Text12" style="position:absolute;left:165px;top:60px;width:61px;height:24px;z-index:29;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:20px;"><strong>Agant</strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:20px;"><strong>Agant</strong></span></div>
 <div id="wb_Image5" style="position:absolute;left:98px;top:122px;width:116px;height:110px;z-index:30;">
 <img src="images/big%20admin.png" id="Image5" alt=""></div>
 <div id="wb_Text26" style="position:absolute;left:273px;top:164px;width:70px;height:16px;z-index:31;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;">Directeur</span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:13px;">Directeur</span></div>
 <div id="wb_Text13" style="position:absolute;left:237px;top:180px;width:142px;height:48px;z-index:32;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">Lorem ipsum dolor sit amet conse ctetur adiisicing elit, sed do</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet conse ctetur adiisicing elit, sed do</span></div>
 <div id="wb_Text14" style="position:absolute;left:232px;top:132px;width:152px;height:22px;z-index:33;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:19px;"><strong>Nom utilisateur </strong></span></div>
+<span style="color:#707070;font-family:Exo;font-size:19px;"><strong>Nom utilisateur </strong></span></div>
 <div id="wb_Text17" style="position:absolute;left:151px;top:291px;width:183px;height:16px;z-index:34;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">800-2345-678;&nbsp; 800-2345-679</span></div>
 <div id="wb_Text15" style="position:absolute;left:151px;top:324px;width:191px;height:16px;z-index:35;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
 <div id="wb_Text16" style="position:absolute;left:151px;top:258px;width:266px;height:16px;z-index:36;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
 <div id="wb_Text18" style="position:absolute;left:151px;top:356px;width:122px;height:16px;z-index:37;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">info@demolink.org</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">info@demolink.org</span></div>
 <div id="wb_Image6" style="position:absolute;left:127px;top:260px;width:12px;height:12px;z-index:38;">
 <img src="images/p96jql65ow.jpg" id="Image6" alt=""></div>
 <div id="wb_Image7" style="position:absolute;left:127px;top:293px;width:12px;height:12px;z-index:39;">
@@ -161,7 +161,7 @@ function ValidateLayer2(theForm)
 <div id="Layer6" style="position:absolute;text-align:center;left:512px;top:517px;width:54%;height:516px;z-index:63;">
 <div id="Layer6_Container" style="width:590px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Text11" style="position:absolute;left:308px;top:60px;width:159px;height:24px;z-index:42;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:20px;"><strong>Contacter-Nous</strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:20px;"><strong>Contacter-Nous</strong></span></div>
 
 <form action="contact_form.php" method="POST">
 <input name="nom" id="TextArea7" style="position:absolute;left:194px;top:122px;width:352px;height:27px;z-index:43;" rows="0" cols="56" placeholder="Nom :">
@@ -177,15 +177,15 @@ function ValidateLayer2(theForm)
 <div id="PageFooter1_Container" style="width:1091px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="Layer5" style="position:absolute;text-align:left;left:339px;top:21px;width:413px;height:146px;z-index:54;">
 <div id="wb_Text9" style="position:absolute;left:148px;top:127px;width:126px;height:16px;z-index:48;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">cofeepark &#0169; 2015. </span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
 <div id="wb_Text8" style="position:absolute;left:116px;top:69px;width:191px;height:16px;z-index:49;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
 <div id="wb_Text10" style="position:absolute;left:116px;top:95px;width:183px;height:16px;z-index:50;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
 <div id="wb_Text6" style="position:absolute;left:105px;top:0px;width:204px;height:23px;z-index:51;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:20px;">Get In Touch With Us</span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
 <div id="wb_Text7" style="position:absolute;left:78px;top:43px;width:266px;height:16px;z-index:52;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
 <div id="wb_Image4" style="position:absolute;left:99px;top:95px;width:17px;height:16px;z-index:53;">
 <img src="images/phone.png" id="Image4" alt=""></div>
 </div>

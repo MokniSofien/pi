@@ -45,7 +45,7 @@ function ValidateLayer3(theForm)
 
 
 <div id="wb_Text19" style="position:absolute;left:518px;top:167px;width:54px;height:23px;z-index:63;text-align:left;">
-<span style="color:#50B5D8;font-family:Arial;font-size:20px;">Blog</span></div>
+<span style="color:#50B5D8;font-family:Exo;font-size:20px;">Blog</span></div>
 <div id="Layer4" style="position:absolute;text-align:left;left:30px;top:232px;width:737px;height:890px;z-index:64;">
    <?php 
 
@@ -61,26 +61,26 @@ while($ligne=mysqli_fetch_array($response)){
 
 ?>
 <div id="wb_Text24" style="position:absolute;left:220px;top:60px;width:568px;height:18px;z-index:36;text-align:center;">
-<span style="color:#50B5D8;font-family:Arial;font-size:15px;"><strong><?php echo $ligne['titre']?></strong></span></div>
+<span style="color:#50B5D8;font-family:Exo;font-size:15px;"><strong><?php echo $ligne['titre']?></strong></span></div>
 <div id="wb_Text25" style="position:absolute;left:111px;top:120px;width:74px;height:16px;z-index:37;text-align:left;">
-<span style="color:#50B5D8;font-family:Arial;font-size:13px;"><?php echo $ligne['auteur']?></span></div>
+<span style="color:#50B5D8;font-family:Exo;font-size:13px;"><?php echo $ligne['auteur']?></span></div>
 <div id="wb_Image7" style="position:absolute;left:182px;top:120px;width:15px;height:16px;z-index:38;">
 <img src="../images/cal%20min.png" id="Image7" alt=""></div>
 <div id="wb_Image6" style="position:absolute;left:96px;top:120px;width:13px;height:14px;z-index:39;">
 <img src="../images/min%20admin.png" id="Image6" alt=""></div>
 <div id="wb_Text26" style="position:absolute;left:205px;top:120px;width:102px;height:16px;z-index:40;text-align:left;">
-<span style="color:#50B5D8;font-family:Arial;font-size:13px;"><?php echo $ligne['date']?></span></div>
+<span style="color:#50B5D8;font-family:Exo;font-size:13px;"><?php echo $ligne['date']?></span></div>
 <div id="wb_Image8" style="position:absolute;left:77px;top:175px;width:515px;height:304px;z-index:41;">
 <img src="../../admin/imageproduit/<?php echo $ligne['image'];?>"id="Image8" alt="" /></div>
  <div id="wb_Text27" style="position:absolute;    word-wrap: break-word; left:77px;top:600px;width:900px;height:96px;z-index:42;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em><?php echo $ligne['text']?></em></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><em><?php echo $ligne['text']?></em></span></div>
 
 <div id="wb_Text28" style="position:absolute;left:162px;top:619px;width:530px;height:32px;z-index:44;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em></em></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><em></em></span></div>
 <div id="wb_Text29" style="position:absolute;left:197px;top:661px;width:100px;height:16px;z-index:45;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em></em></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><em></em></span></div>
 <div id="wb_Text30" style="position:absolute;left:77px;top:716px;width:530px;height:96px;z-index:46;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em></em></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><em></em></span></div>
 <?php
  } ?>
 </div>
@@ -204,15 +204,15 @@ function autoResize(id){
 <div id="PageFooter1_Container" style="width:1091px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="Layer5" style="position:absolute;text-align:left;left:339px;top:21px;width:413px;height:146px;z-index:59;">
 <div id="wb_Text9" style="position:absolute;left:148px;top:127px;width:126px;height:16px;z-index:53;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">cofeepark &#0169; 2015. </span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
 <div id="wb_Text8" style="position:absolute;left:116px;top:69px;width:191px;height:16px;z-index:54;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
 <div id="wb_Text10" style="position:absolute;left:116px;top:95px;width:183px;height:16px;z-index:55;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
 <div id="wb_Text6" style="position:absolute;left:105px;top:0px;width:204px;height:23px;z-index:56;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:20px;">Get In Touch With Us</span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
 <div id="wb_Text7" style="position:absolute;left:78px;top:43px;width:266px;height:16px;z-index:57;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
 <div id="wb_Image4" style="position:absolute;left:99px;top:95px;width:17px;height:16px;z-index:58;">
 <img src="../images/phone.png" id="Image4" alt=""></div>
 </div>

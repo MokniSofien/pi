@@ -129,11 +129,11 @@ function ValidateLayer2(theForm)
 
 <img onclick="changeImagee()" src="../images/Show.png" id="Image5" alt=""></div>
 <div id="wb_Text13">
-<span style="color:#000000;font-family:Arial;font-size:13px;">Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna <br><br>praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus,<br><br> cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit<br><br> facilisi, mi mattis pariatur aliquam pharetra eget.<br><br><br><br>Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna <br><br>praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus,<br><br> cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit<br><br> facilisi, mi mattis pariatur aliquam pharetra eget.<br><br><br><br><br>Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna <br><br>praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus,<br><br> cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit<br><br> facilisi, mi mattis pariatur aliquam pharetra eget.</span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna <br><br>praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus,<br><br> cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit<br><br> facilisi, mi mattis pariatur aliquam pharetra eget.<br><br><br><br>Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna <br><br>praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus,<br><br> cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit<br><br> facilisi, mi mattis pariatur aliquam pharetra eget.<br><br><br><br><br>Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna <br><br>praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus,<br><br> cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit<br><br> facilisi, mi mattis pariatur aliquam pharetra eget.</span></div>
 <div id="wb_Image7">
 <img  src="../images/gea1.png" id="Image7" alt=""></div>
 <div id="wb_Text12">
-<span style="color:#00BFFF;font-family:Arial;font-size:16px;"><strong>Présentation </strong></span></div>
+<span style="color:#00BFFF;font-family:Exo;font-size:16px;"><strong>Présentation </strong></span></div>
 <hr id="Line1">
 </div>
 
@@ -144,7 +144,7 @@ function ValidateLayer2(theForm)
 
 <img onclick="changeImage()" src="../images/Show.png" id="Image_5" alt=""> </div>
 <div id="wb_Text12">
-<span style="color:#00BFFF;font-family:Arial;font-size:16px;"><strong>Démonstration</strong></span></div>
+<span style="color:#00BFFF;font-family:Exo;font-size:16px;"><strong>Démonstration</strong></span></div>
 <hr id="Line1">
 <div id="wb_Image7">
 <img src="../images/gea1.png" id="Image8" alt=""></div>
@@ -162,15 +162,15 @@ function ValidateLayer2(theForm)
 <div id="PageFooter1_Container">
 <div id="Layer5">
 <div id="wb_Text9">
-<span style="color:#707070;font-family:Arial;font-size:13px;">cofeepark &#0169; 2015. </span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
 <div id="wb_Text8">
-<span style="color:#707070;font-family:Arial;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
 <div id="wb_Text10">
-<span style="color:#707070;font-family:Arial;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
 <div id="wb_Text6">
-<span style="color:#4EB0CA;font-family:Arial;font-size:20px;">Get In Touch With Us</span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
 <div id="wb_Text7">
-<span style="color:#707070;font-family:Arial;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
 <div id="wb_Image4">
 <img src="../images/phone.png" id="Image4" alt=""></div>
 </div>

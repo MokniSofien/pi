@@ -18,7 +18,7 @@
 <img src="../images/logo_big.png" style="width:400px;" alt=""></div>
 <div id="wb_Text1" style="position:absolute;left:302px;top:140px;width:169px;height:19px;z-index:2;text-align:left;">
 
-<span style="color:#4EB0CA;font-family:Arial;font-size:16px;"><strong>Créez votre compte !</strong></span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:16px;"><strong>Créez votre compte !</strong></span></div>
 <form method="POST" action="register.php"enctype="multipart/form-data">
 <input name="nom" type="text"id="TextArea7" style="position:absolute;left:208px;top:177px;width:352px;height:27px;z-index:3;" rows="0" cols="56" placeholder="Nom *"required="required">
 <input name="prenom" type="text"id="TextArea1" style="position:absolute;left:208px;top:218px;width:352px;height:27px;z-index:4;" rows="0" cols="56" placeholder="Pr&#233;nom *"required="required">

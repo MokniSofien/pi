@@ -27,7 +27,7 @@ function ValidateLayer2(theForm)
 <div style="hieght:100%">
 <div id="container">
 <div id="wb_Text11">
-<span style="color:#4BB1CB;font-family:Arial;font-size:17px;"><strong>CoffeePark vous offre une solution de gestion pour vos cafés </strong></span></div>
+<span style="color:#4BB1CB;font-family:Exo;font-size:17px;"><strong>CoffeePark vous offre une solution de gestion pour vos cafés </strong></span></div>
 <div id="Layer3">
 <div id="Layer3_Container">
 <a onclick="change1()" >
@@ -36,7 +36,7 @@ function ValidateLayer2(theForm)
 <div id="wb_Text12">
 <span style="color:#000000;font-family:Exo;font-size:13px;">L’outil de gestion de ressources humaines offre à l’utilisateur la possibilité de bien gérer son personnel ; à travers une interface simple à utiliser, l’utilisateur peut consulter la liste de ses fonctionnaires avec leurs différents détails : nom, photo, type de contrat, fonction, email…<br>A travers un système d’information 100% digitale la gestion des congés du personnel se fait par un simple clic : Un fonctionnaire n’a que déposer une demande de congé et son supérieur devra décider de la lui accorder ou pas.</span></div>
 <div id="wb_Text13">
-<span style="color:#4BB1CB;font-family:Arial;font-size:15px;"><strong>Gestion des ressources humaines </strong></span></div>
+<span style="color:#4BB1CB;font-family:Exo;font-size:15px;"><strong>Gestion des ressources humaines </strong></span></div>
 <div id="wb_Image5">
 <img src="../images/tte.png" id="Image5" alt=""></div>
 <div id="wb_Image10">
@@ -56,7 +56,7 @@ function ValidateLayer2(theForm)
 <div id="wb_Image12">
 <img src="../images/NV Commande.jpg" id="Image12" alt=""></div>
 <div id="wb_Text14">
-<span style="color:#4BB1CB;font-family:Arial;font-size:15px;"><strong>Gestion de stock</strong></span></div>
+<span style="color:#4BB1CB;font-family:Exo;font-size:15px;"><strong>Gestion de stock</strong></span></div>
 <div id="wb_Image9">
 <img src="../images/valiz.png" id="Image9" alt=""></div>
 </div>
@@ -69,9 +69,9 @@ function ValidateLayer2(theForm)
 <div id="wb_Image8">
 <img src="../images/lamp.png" id="Image8" alt=""></div>
 <div id="wb_Text15">
-<span style="color:#4BB1CB;font-family:Arial;font-size:15px;"><strong>Gestion des produits</strong></span></div>
+<span style="color:#4BB1CB;font-family:Exo;font-size:15px;"><strong>Gestion des produits</strong></span></div>
 <div id="wb_Text20">
-<span style="color:#000000;font-family:Arial;font-size:13px;">qui regroupe tous les produits de l’entreprise et les données qui leurs sont propres tels que le code, la catégorie, la taxe … Pour chaque produit il y a une liberté de le voir plus en détail, de le modifier ou bien de le supprimer de la liste.</span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;">qui regroupe tous les produits de l’entreprise et les données qui leurs sont propres tels que le code, la catégorie, la taxe … Pour chaque produit il y a une liberté de le voir plus en détail, de le modifier ou bien de le supprimer de la liste.</span></div>
 <div id="wb_Image14">
 <img src="../images/NV Commande consulté.jpg" id="Image14" alt=""></div>
 </div>
@@ -82,13 +82,13 @@ function ValidateLayer2(theForm)
 <div id="Layer8">
 <div id="Layer8_Container">
 <div id="wb_Text22">
-<div style="margin-left:18px;"><span style="color:#000000;font-family:Arial;font-size:13px;">Ici vous pouvez accéder à tous les informations liées à l'inventaire tel que le mouvement de</span></div>
-<div style="margin-left:18px;"><span style="color:#000000;font-family:Arial;font-size:13px;">l'inventaire&nbsp; et la liste des retour casses.</span></div>
+<div style="margin-left:18px;"><span style="color:#000000;font-family:Exo;font-size:13px;">Ici vous pouvez accéder à tous les informations liées à l'inventaire tel que le mouvement de</span></div>
+<div style="margin-left:18px;"><span style="color:#000000;font-family:Exo;font-size:13px;">l'inventaire&nbsp; et la liste des retour casses.</span></div>
 </div>
 <div id="wb_Image16">
 <img src="../images/NV Depense.jpg" id="Image16" alt=""></div>
 <div id="wb_Text16">
-<span style="color:#4BB1CB;font-family:Arial;font-size:15px;"><strong>gestion de l'inventaire </strong></span></div>
+<span style="color:#4BB1CB;font-family:Exo;font-size:15px;"><strong>gestion de l'inventaire </strong></span></div>
 <div id="wb_Image7">
 <img src="../images/ss.png" id="Image7" alt=""></div>
 </div>
@@ -99,15 +99,15 @@ function ValidateLayer2(theForm)
 <div id="Layer9">
 <div id="Layer9_Container">
 <div id="wb_Text24">
-<div style="margin-left:18px;"><span style="color:#000000;font-family:Arial;font-size:13px;">ici vous trouvez le menu de gestion de commande où vous pouvez accéder a tous les informations</span></div>
-<div style="margin-left:18px;"><span style="color:#000000;font-family:Arial;font-size:13px;">liées au commande.</span></div>
+<div style="margin-left:18px;"><span style="color:#000000;font-family:Exo;font-size:13px;">ici vous trouvez le menu de gestion de commande où vous pouvez accéder a tous les informations</span></div>
+<div style="margin-left:18px;"><span style="color:#000000;font-family:Exo;font-size:13px;">liées au commande.</span></div>
 </div>
 <div id="wb_Image18">
 <img src="../images/NV Rapport rendement rh.jpg" id="Image18" alt=""></div>
 <div id="wb_Image6">
 <img src="../images/no.png" id="Image6" alt=""></div>
 <div id="wb_Text17">
-<span style="color:#4BB1CB;font-family:Arial;font-size:15px;"><strong>gestion de commandes</strong></span></div>
+<span style="color:#4BB1CB;font-family:Exo;font-size:15px;"><strong>gestion de commandes</strong></span></div>
 </div>
 </div>
 
@@ -228,15 +228,15 @@ function autoResize(id){
 <div id="PageFooter1_Container">
 <div id="Layer5">
 <div id="wb_Text9">
-<span style="color:#707070;font-family:Arial;font-size:13px;">cofeepark &#0169; 2015. </span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
 <div id="wb_Text8">
-<span style="color:#707070;font-family:Arial;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
 <div id="wb_Text10">
-<span style="color:#707070;font-family:Arial;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
 <div id="wb_Text6">
-<span style="color:#4EB0CA;font-family:Arial;font-size:20px;">Get In Touch With Us</span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
 <div id="wb_Text7">
-<span style="color:#707070;font-family:Arial;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
 <div id="wb_Image4">
 <img src="../images/phone.png" id="Image4" alt=""></div>
 </div>

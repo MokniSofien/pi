@@ -28,7 +28,7 @@ function ValidateLayer2(theForm)
 <body>
 <div id="container">
 <div id="wb_Text11">
-<span style="color:#00BFFF;font-family:Arial;font-size:17px;"><strong>Analyses et rapports adapter à a vos besoins</strong></span></div>
+<span style="color:#00BFFF;font-family:Exo;font-size:17px;"><strong>Analyses et rapports adapter à a vos besoins</strong></span></div>
 <div id="Layer3">
   <div class="ligne_verticale" ></div>
    <div id="wb_Image14">
@@ -51,37 +51,37 @@ function ValidateLayer2(theForm)
    <div id="wb_Image9">
       <img src="../images/10.png" id="Image9" alt=""></div>
    <div id="wb_Text12">
-      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>5</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Analyses</strong></span></div>
+      <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>5</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Analyses</strong></span></div>
    <div id="wb_Text13">
-      <span style="color:#00BFFF;font-family:Arial;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
+      <span style="color:#00BFFF;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
    <div id="wb_Text14">
-      <span style="color:#000000;font-family:Arial;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
+      <span style="color:#000000;font-family:Exo;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
    <div id="wb_Image7">
       <img src="../images/1.png" id="Image7" alt=""></div>
    <div id="wb_Text17">
-      <span style="color:#000000;font-family:Arial;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
+      <span style="color:#000000;font-family:Exo;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
    <div id="wb_Text16">
-      <span style="color:#00BFFF;font-family:Arial;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
+      <span style="color:#00BFFF;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
    <div id="wb_Text15">
-      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>2</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Ventes</strong></span></div>
+      <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>2</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Ventes</strong></span></div>
    <div id="wb_Text18">
-      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>3</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Dépenses </strong></span></div>
+      <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>3</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Dépenses </strong></span></div>
    <div id="wb_Text19">
-      <span style="color:#00BFFF;font-family:Arial;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
+      <span style="color:#00BFFF;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
    <div id="wb_Text20">
-      <span style="color:#000000;font-family:Arial;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
+      <span style="color:#000000;font-family:Exo;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
    <div id="wb_Text21">
-      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>4</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Projets</strong></span></div>
+      <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>4</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Projets</strong></span></div>
    <div id="wb_Text22">
-      <span style="color:#00BFFF;font-family:Arial;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
+      <span style="color:#00BFFF;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
    <div id="wb_Text23">
-      <span style="color:#000000;font-family:Arial;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
+      <span style="color:#000000;font-family:Exo;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
    <div id="wb_Text26">
-      <span style="color:#000000;font-family:Arial;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
+      <span style="color:#000000;font-family:Exo;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
    <div id="wb_Text24">
-      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>1</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Listes</strong></span></div>
+      <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>1</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Listes</strong></span></div>
    <div id="wb_Text25">
-      <span style="color:#00BFFF;font-family:Arial;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
+      <span style="color:#00BFFF;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
 </div>
 </div>
 <!-- header-->
@@ -199,7 +199,7 @@ function autoResize(id){
 <!--end header-->
 <div id="Layer4">
 <div id="wb_Text32">
- <span style="color:#FFFFFF;font-family:Arial;font-size:16px;">S'INSCRIRE AU NEWSLETTER</span></div>
+ <span style="color:#FFFFFF;font-family:Exo;font-size:16px;">S'INSCRIRE AU NEWSLETTER</span></div>
   <form action="abonner.php" method="POST">
    <input name="email" id="TextArea2" type="Email" rows="0" cols="56" placeholder="Email *" required="required">
      <button name="submit" type="submit" id="Button1" style=" overflow: hidden; outline: none;" ><img src="../images/news.png" ></button>
@@ -210,15 +210,15 @@ function autoResize(id){
 <div id="PageFooter1_Container">
 <div id="Layer5">
 <div id="wb_Text9">
-<span style="color:#707070;font-family:Arial;font-size:13px;">cofeepark &#0169; 2015. </span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
 <div id="wb_Text8">
-<span style="color:#707070;font-family:Arial;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
 <div id="wb_Text10">
-<span style="color:#707070;font-family:Arial;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
 <div id="wb_Text6">
-<span style="color:#4EB0CA;font-family:Arial;font-size:20px;">Get In Touch With Us</span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
 <div id="wb_Text7">
-<span style="color:#707070;font-family:Arial;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
 <div id="wb_Image4">
 <img src="../images/phone.png" id="Image4" alt=""></div>
 </div>
