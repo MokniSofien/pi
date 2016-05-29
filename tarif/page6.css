@@ -906,10 +906,10 @@ body
 }
 #wb_Text8
 {
-   position: absolute;
-   left: 69px;
-   top: 169px;
-   width: 111px;
+ position: absolute;
+   left: 34px;
+   top: 179px;
+   width: 161px;
    height: 192px;
    text-align: center;
    z-index: 36;
@@ -1015,9 +1015,9 @@ body
 #wb_Text12
 {
    position: absolute;
-   left: 69px;
-   top: 169px;
-   width: 111px;
+   left: 34px;
+   top: 179px;
+   width: 161px;
    height: 192px;
    text-align: center;
    z-index: 44;
@@ -1246,10 +1246,10 @@ body
 }
 #wb_Text17
 {
-   position: absolute;
-   left: 69px;
-   top: 169px;
-   width: 111px;
+  position: absolute;
+   left: 34px;
+   top: 179px;
+   width: 161px;
    height: 192px;
    text-align: center;
    z-index: 28;
