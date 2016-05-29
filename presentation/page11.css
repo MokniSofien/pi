@@ -626,11 +626,11 @@ body
    margin-right: auto;
    text-align: left;
 }
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 800px)
 {
 div#container
 {
-   width: 400px;
+   width: 800px;
 }
 #test
 {
@@ -794,7 +794,7 @@ div#container
 }
 #wb_Text7
 {
-   left: 78px;
+   float:left;
    top: 43px;
    width: 266px;
    height: 16px;
@@ -847,11 +847,13 @@ div#container
    width: 217%;
 }
 #wb_Image7
-{
-   left: 329px;
+{  
+    margin-left: 15%;
+
+   float:left;
+   
    top: 41px;
-   width: 40px;
-   height: 44px;
+   
    visibility: visible;
    display: inline;
 }

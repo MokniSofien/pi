@@ -339,21 +339,37 @@ function autoResize(id){
 <div id="PageFooter1">
 <div id="PageFooter1_Container">
 <div id="Layer22">
-<div id="wb_Text31">
-<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
+
+
+
+
 <div id="wb_Text32">
-<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
-<div id="wb_Text33">
-<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Instituit contemnere sapienti accessio dignitatis vera. Grate usus terrore evolutio libris officii defatigatio, amaret efficeretur tibique quietus videri vexetur, choro. Fallare, patre pertinacia.</span></div>
+
 <div id="wb_Text34">
-<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
-<div id="wb_Text35">
-<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
+<span style="color:#707070;font-family:Exo;font-size:20px;">ABONNER VOUS A NOTRE <br> NEWS LETTER</span>
+<input name="text" id="TextArea40"type="email" required="required" placeholder="Abonnez-vous">
+<input name="submit"id="TextArea41" id="TextArea41"type="submit" value="S'abonner">
+
+</div>
+
+
+
+</div>
 <div id="wb_Image18">
-<img src="images/phone.png" id="Image18" alt=""></div>
+<img src="images/fb.png" id="Image18" alt=""></div>
+<div id="wb_Text40">
+<span style="color:#707070;font-family:Exo;font-size:20px;">COFEE <b>PARK</b></span></div>
+<div id="wb_Text35">
+<span style="color:#707070;font-family:Exo;font-size:20px;"><b>CONTACTER</b>-NOUS</span></div>
+<div id="wb_Text42">
+<span style="color:#707070;font-family:Exo;font-size:13px;">ADRESSE : LE BARDO </span></div>
+<div id="wb_Text33">
+<span style="color:#707070;font-family:Exo;font-size:13px;"> TEL : 71 531 745</span></div>
 </div>
-</div>
-</div>
+<div id="wb_Text31">
+<span style="color:#707070;font-family:Exo;font-size:13px;">coffeePark &#0169; 2016. </span></div>
+<hr id="Line1"></div>
 <script>
 function changeme() {
     var taille = document.getElementById('com');
