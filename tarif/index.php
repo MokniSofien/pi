@@ -23,35 +23,7 @@ function ValidateLayer2(theForm)
    return true;
 }
 </script>
-<style>
-<!-- style ta3 el login --> 
-		.black_overlay{
-			display: none;
-			position: absolute;
-			top: 0%;
-			left: 0%;
-			width: 100%;
-			height: 100%;
-			background-color: black;
-			z-index:1001;
-			
-			
-		}
-		.white_content {
-			display: none;
-			position: fixed;
-			top: 15%;
-			left: 150px;
-			right:150px;
-			width: auto;
-			height:80%;
-			padding: 0px;
-			border: 5px solid #4EB0CA;
-			
-			z-index:1002;
-			overflow: none;
-		}
-	</style>
+
 </head>
 <body>
 <div id="container">
@@ -247,11 +219,11 @@ function autoResize(id){
 <div id="Layer4">
 <div id="wb_Text15">
 <span style="color:#000000;font-family:Exo;font-size:19px;">50 $</span></div>
-<a href="../panier_connexion/page8.html"><input type="submit" id="Button3" name="Commander" value="Commander"></a>
+<a href="../panier_connexion/page8.html"><input type="submit" id="Button3" name="Commander" value="ajouter au panier"></a>
 <div id="wb_Text16">
 <span style="color:#000000;font-family:Exo;font-size:19px;">Version Basic</span></div>
 <div id="wb_Text17">
-<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>5 Utilisateur/mois<br><br>basé sur un engagement<br>annuel pour 5 utilisateurs<br>5 utilisateurs<br><br>5 projets<br><br>5 Go de stockage</strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>5<br> Utilisateur/mois<br><br>basé sur un engagement<br>annuel pour 5 utilisateurs<br>5 utilisateurs<br><br><br>5 Go de stockage</strong></span></div>
 <div id="wb_Text18">
 <span style="color:#000000;font-family:Exo;font-size:13px;"><strong>Gestion de projets<br>Suivi du temps<br>Collaboration<br>Gestion des dépenses<br>Facturation</strong></span></div>
 <hr id="Line1">
@@ -263,11 +235,11 @@ function autoResize(id){
 <div id="Layer5">
 <div id="wb_Text6">
 <span style="color:#000000;font-family:Exo;font-size:19px;"> 70 $</span></div>
-<a href="../panier_connexion/page8.html"><input type="submit" id="Button1" name="Commander" value="Commander"></a>
+<a href="../panier_connexion/page8.html"><input type="submit" id="Button1" name="Commander" value="ajouter au panier"></a>
 <div id="wb_Text7">
 <span style="color:#000000;font-family:Exo;font-size:19px;">Version Business</span></div>
 <div id="wb_Text8">
-<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>10 Utilisateur/mois<br><br>basé sur un engagement<br>annuel pour 10 utilisateurs<br>10 utilisateurs<br><br>10 projets<br><br>10  Go de stockage</strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>10<br> Utilisateur/mois<br><br>basé sur un engagement<br>annuel pour 10 utilisateurs<br>10 utilisateurs<br><br><br>10  Go de stockage</strong></span></div>
 <div id="wb_Text9">
 <span style="color:#000000;font-family:Exo;font-size:13px;"><strong>Gestion de projets<br>Suivi du temps<br>Collaboration<br>Gestion des dépenses<br>Facturation</strong></span></div>
 <hr id="Line3">
@@ -278,11 +250,11 @@ function autoResize(id){
 <div id="Layer6">
 <div id="wb_Text10">
 <span style="color:#000000;font-family:Exo;font-size:19px;">105$</span></div>
-<a href="../panier_connexion/page8.html"><input type="submit" id="Button2" name="Commander" value="Commander"></a>
+<a href="../panier_connexion/page8.html"><input type="submit" id="Button2" name="Commander" value="ajouter au panier"></a>
 <div id="wb_Text11">
 <span style="color:#000000;font-family:Exo;font-size:19px;">Version Enterprise</span></div>
 <div id="wb_Text12">
-<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>20 Utilisateur/mois<br><br>basé sur un engagement<br>annuel pour 20 utilisateurs<br>20 utilisateurs<br><br>20 projets<br><br>100 Go de stockage</strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>20 <br>Utilisateur/mois<br><br>basé sur un engagement<br>annuel pour 20 utilisateurs<br>20 utilisateurs<br><br>100 Go de stockage</strong></span></div>
 <div id="wb_Text13">
 <span style="color:#000000;font-family:Exo;font-size:13px;"><strong>Gestion de projets<br>Suivi du temps<br>Collaboration<br>Gestion des dépenses<br>Facturation</strong></span></div>
 <hr id="Line5">

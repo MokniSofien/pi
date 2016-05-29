@@ -138,11 +138,11 @@ function autoResize(id){
 <!--end header-->
 <div id="container">
 <div id="wb_Text19" style="position:absolute;left:706px;top:92px;width:243px;height:16px;z-index:55;text-align:left;">
-<span style="color:#000000;font-family:Exo;font-size:13px;">7 Days a week from 9:00 am to 7:00 pm</span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;">7 jours de 9:00 am à 7:00 pm</span></div>
 <div id="wb_Text20" style="position:absolute;left:44px;top:92px;width:266px;height:16px;z-index:56;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">4578 marmora road ,val de marne paris 19</span></div>
 <div id="wb_Text21" style="position:absolute;left:417px;top:92px;width:183px;height:16px;z-index:57;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">+ 33 0609 7429 99 </span></div>
 <div id="wb_Image10" style="position:absolute;left:401px;top:94px;width:12px;height:12px;z-index:58;">
 <img src="../images/2xwsuc0swk.jpg" id="Image10" alt=""></div>
 <div id="wb_Image11" style="position:absolute;left:689px;top:95px;width:12px;height:12px;z-index:59;">
@@ -161,24 +161,22 @@ function autoResize(id){
 </div>
 <div id="Layer3" style="position:absolute;text-align:center;left:0px;top:517px;width:46%;height:516px;z-index:62;">
 <div id="Layer3_Container" style="width:512px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_Text12" style="position:absolute;left:165px;top:60px;width:61px;height:24px;z-index:29;text-align:left;">
-<span style="color:#000000;font-family:Exo;font-size:20px;"><strong>Agant</strong></span></div>
+
 <div id="wb_Image5" style="position:absolute;left:98px;top:122px;width:116px;height:110px;z-index:30;">
 <img src="../images/big%20admin.png" id="Image5" alt=""></div>
-<div id="wb_Text26" style="position:absolute;left:273px;top:164px;width:70px;height:16px;z-index:31;text-align:left;">
-<span style="color:#4EB0CA;font-family:Exo;font-size:13px;">Directeur</span></div>
-<div id="wb_Text13" style="position:absolute;left:237px;top:180px;width:142px;height:48px;z-index:32;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet conse ctetur adiisicing elit, sed do</span></div>
+<div id="wb_Text26" style="position:absolute;left:253px;top:164px;width:100px;height:16px;z-index:31;text-align:left;">
+<span style="color:#4EB0CA;font-family:Exo;font-size:13px;">Steven Hector</span></div>
+
 <div id="wb_Text14" style="position:absolute;left:232px;top:132px;width:152px;height:22px;z-index:33;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:19px;"><strong>Nom utilisateur </strong></span></div>
+<span style="color:#707070;font-family:Exo;font-size:19px;"><strong>Web Master </strong></span></div>
 <div id="wb_Text17" style="position:absolute;left:151px;top:291px;width:183px;height:16px;z-index:34;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">+ 33 0609 7429 99</span></div>
 <div id="wb_Text15" style="position:absolute;left:151px;top:324px;width:191px;height:16px;z-index:35;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">7 jours de 9:00 am à 7:00 pm</span></div>
 <div id="wb_Text16" style="position:absolute;left:151px;top:258px;width:266px;height:16px;z-index:36;text-align:left;">
 <span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
 <div id="wb_Text18" style="position:absolute;left:151px;top:356px;width:122px;height:16px;z-index:37;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">info@demolink.org</span></div>
+<span style="color:#4eb1cb;font-family:Exo;font-size:13px;">CoffeePark@gmail.com</span></div>
 <div id="wb_Image6" style="position:absolute;left:127px;top:260px;width:12px;height:12px;z-index:38;">
 <img src="../images/p96jql65ow.jpg" id="Image6" alt=""></div>
 <div id="wb_Image7" style="position:absolute;left:127px;top:293px;width:12px;height:12px;z-index:39;">
@@ -197,7 +195,7 @@ function autoResize(id){
 <form action="contact_form.php" method="POST">
 <input name="nom" id="TextArea7"type="text" style="position:absolute;left:194px;top:122px;width:352px;height:27px;z-index:43;" rows="0" cols="56" placeholder="Nom :" required="required">
 <input name="email" id="TextArea2" type="email"style="position:absolute;left:194px;top:163px;width:352px;height:27px;z-index:44;" rows="0" cols="56" placeholder="Email :"required="required">
-<input name="phone" id="TextArea3" type="number"style="position:absolute;left:194px;top:204px;width:352px;height:27px;z-index:45;" rows="0" cols="56" placeholder="Phone :"required="required">
+<input name="phone" id="TextArea3" type="number"style="position:absolute;left:194px;top:204px;width:352px;height:27px;z-index:45;" rows="0" cols="56" placeholder="Tel :"required="required">
 <textarea name="message" id="TextArea4" type="text"style="position:absolute;left:194px;top:246px;width:352px;height:75px;z-index:46;" rows="3" cols="56" placeholder="Message :"required="required"></textarea>
 <input type="submit" id="Button1" name="envoi" value="Envoyer" style="position:absolute;left:194px;top:356px;width:177px;height:38px;z-index:47;">
 
@@ -208,11 +206,11 @@ function autoResize(id){
 <div id="PageFooter1_Container" style="width:1091px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="Layer5" style="position:absolute;text-align:left;left:339px;top:21px;width:413px;height:146px;z-index:54;">
 <div id="wb_Text9" style="position:absolute;left:148px;top:127px;width:126px;height:16px;z-index:48;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark 2015. </span></div>
 <div id="wb_Text8" style="position:absolute;left:116px;top:69px;width:191px;height:16px;z-index:49;text-align:left;">
 <span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
 <div id="wb_Text10" style="position:absolute;left:116px;top:95px;width:183px;height:16px;z-index:50;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">+ 33 0609 7429 99</span></div>
 <div id="wb_Text6" style="position:absolute;left:105px;top:0px;width:204px;height:23px;z-index:51;text-align:left;">
 <span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
 <div id="wb_Text7" style="position:absolute;left:78px;top:43px;width:266px;height:16px;z-index:52;text-align:left;">
