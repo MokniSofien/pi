@@ -69,40 +69,8 @@ function ValidateLayer3(theForm)
 </head>
 <body>
 <div id="container">
-<div id="Layer3" style="position:absolute;text-align:left;left:793px;top:232px;width:264px;height:509px;z-index:60;">
-<form action="recherche.php" method="POST"> 
-<input name="requete" id="TextArea2" style="position:absolute;left:30px;top:34px;width:178px;height:18px;z-index:23;" rows="0" cols="26">
-<div id="wb_Image5" style="position:absolute;left:188px;top:36px;width:20px;height:18px;z-index:24;">
 
-<button name="submit" type="submit" value="valider" style=" background-color: transparent; border: none;"><img src="../images/recheche.png" id="Image5" alt=""></button>
-</form></div>
-<div id="wb_Text12" style="position:absolute;left:24px;top:94px;width:80px;height:36px;z-index:25;text-align:left;">
-<span style="color:#888685;font-family:Arial;font-size:15px;"><strong>Categories</strong></span></div>
-<div id="wb_Text13" style="position:absolute;left:30px;top:130px;width:104px;height:16px;z-index:26;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;">Donec eu elit in</span></div>
-<div id="wb_Text14" style="position:absolute;left:30px;top:163px;width:104px;height:16px;z-index:27;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;">Donec eu elit in</span></div>
-<div id="wb_Text15" style="position:absolute;left:30px;top:198px;width:104px;height:16px;z-index:28;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;">Donec eu elit in</span></div>
-<div id="wb_Text20" style="position:absolute;left:24px;top:257px;width:80px;height:36px;z-index:29;text-align:left;">
-<span style="color:#888685;font-family:Arial;font-size:15px;"><strong>Categories</strong></span></div>
-<div id="wb_Text21" style="position:absolute;left:30px;top:293px;width:104px;height:16px;z-index:30;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;">Donec eu elit in</span></div>
-<div id="wb_Text22" style="position:absolute;left:30px;top:326px;width:104px;height:16px;z-index:31;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;">Donec eu elit in</span></div>
-<div id="wb_Text23" style="position:absolute;left:30px;top:361px;width:104px;height:16px;z-index:32;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;">Donec eu elit in</span></div>
-<div id="wb_Text16" style="position:absolute;left:24px;top:396px;width:110px;height:18px;z-index:33;text-align:left;">
-<span style="color:#888685;font-family:Arial;font-size:15px;"><strong>Popular Tags</strong></span></div>
-<div id="wb_Text17" style="position:absolute;left:30px;top:432px;width:104px;height:16px;z-index:34;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;">Donec eu elit in</span></div>
-<div id="wb_Text18" style="position:absolute;left:30px;top:465px;width:104px;height:16px;z-index:35;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;">Donec eu elit in</span></div>
-</div>
-<div id="wb_Text11" style="position:absolute;left:817px;top:248px;width:758px;height:18px;z-index:61;text-align:left;">
-<span style="color:#707070;font-family:Arial;font-size:15px;"><strong>Recherche</strong></span></div>
-<div id="wb_Line1" style="position:absolute;left:766px;top:231px;width:0px;height:891px;z-index:62;">
-<img src="../images/img0001.png" id="Line1" alt=""></div>
+
 <div id="wb_Text19" style="position:absolute;left:518px;top:167px;width:54px;height:23px;z-index:63;text-align:left;">
 <span style="color:#000000;font-family:Arial;font-size:20px;">Blog</span></div>
 <div id="Layer4" style="position:absolute;text-align:left;left:30px;top:232px;width:737px;height:890px;z-index:64;">
@@ -119,19 +87,19 @@ while($ligne=mysqli_fetch_array($response)){
 
 
 ?>
-<div id="wb_Text24" style="position:absolute;left:77px;top:76px;width:568px;height:18px;z-index:36;text-align:left;">
+<div id="wb_Text24" style="position:absolute;left:220px;top:60px;width:568px;height:18px;z-index:36;text-align:center;">
 <span style="color:#000000;font-family:Arial;font-size:15px;"><strong><?php echo $ligne['titre']?></strong></span></div>
-<div id="wb_Text25" style="position:absolute;left:111px;top:94px;width:74px;height:16px;z-index:37;text-align:left;">
+<div id="wb_Text25" style="position:absolute;left:111px;top:120px;width:74px;height:16px;z-index:37;text-align:left;">
 <span style="color:#4EB0CA;font-family:Arial;font-size:13px;"><?php echo $ligne['auteur']?></span></div>
-<div id="wb_Image7" style="position:absolute;left:182px;top:94px;width:15px;height:16px;z-index:38;">
+<div id="wb_Image7" style="position:absolute;left:182px;top:120px;width:15px;height:16px;z-index:38;">
 <img src="../images/cal%20min.png" id="Image7" alt=""></div>
-<div id="wb_Image6" style="position:absolute;left:96px;top:96px;width:13px;height:14px;z-index:39;">
+<div id="wb_Image6" style="position:absolute;left:96px;top:120px;width:13px;height:14px;z-index:39;">
 <img src="../images/min%20admin.png" id="Image6" alt=""></div>
-<div id="wb_Text26" style="position:absolute;left:205px;top:94px;width:102px;height:16px;z-index:40;text-align:left;">
+<div id="wb_Text26" style="position:absolute;left:205px;top:120px;width:102px;height:16px;z-index:40;text-align:left;">
 <span style="color:#4EB0CA;font-family:Arial;font-size:13px;"><?php echo $ligne['date']?></span></div>
-<div id="wb_Image8" style="position:absolute;left:77px;top:146px;width:515px;height:304px;z-index:41;">
+<div id="wb_Image8" style="position:absolute;left:77px;top:175px;width:515px;height:304px;z-index:41;">
 <img src="../imageproduit/<?php echo $ligne['image'];?>"id="Image8" alt="" /></div>
-<div id="wb_Text27" style="position:absolute;    word-wrap: break-word; left:77px;top:465px;width:530px;height:96px;z-index:42;text-align:left;">
+ <div id="wb_Text27" style="position:absolute;    word-wrap: break-word; left:77px;top:600px;width:900px;height:96px;z-index:42;text-align:left;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><em><?php echo $ligne['text']?></em></span></div>
 
 <div id="wb_Text28" style="position:absolute;left:162px;top:619px;width:530px;height:32px;z-index:44;text-align:left;">
