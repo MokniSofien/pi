@@ -104,7 +104,7 @@ function ValidateLayer2(theForm)
    <div id="wb_Text23">
       <span style="color:#000000;font-family:Arial;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
    <div id="wb_Text26">
-      <span style="color:#000000;font-family:Arial;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
+      <span style="color:#000000;font-family:Arial;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
    <div id="wb_Text24">
       <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>1</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Listes</strong></span></div>
    <div id="wb_Text25">
