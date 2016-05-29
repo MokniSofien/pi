@@ -161,12 +161,13 @@ function autoResize(id){
 <div id="top">
 <div id="page1">
 <div id="page1_Container">
+
+<div id="Layer4">
+<div id="Layer4_Container">
 <div id="wb_Text7">
 <span style="color:#4EB0CA;font-family:Arial;font-size:20px;">Demandez votre version d’essaie gratuitement ( 30 Jours)</span></div>
 <div id="wb_Text6">
 <span style="color:#FFFFFF;font-family:Arial;font-size:27px;">Solution de gestion des Restos Café Lounge</span></div>
-<div id="Layer4">
-<div id="Layer4_Container">
 </div>
 </div>
 <form action="abonner.php" method="POST">
@@ -339,7 +340,7 @@ function autoResize(id){
 <div id="PageFooter1">
 <div id="PageFooter1_Container">
 <div id="Layer22">
-<<<<<<< HEAD
+
 <div id="wb_Text31">
 <span style="color:#707070;font-family:Arial;font-size:13px;">cofeepark &#0169; 2015. </span></div>
 <div id="wb_Text32">
@@ -352,7 +353,7 @@ function autoResize(id){
 <span style="color:#707070;font-family:Arial;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
 <div id="wb_Image18">
 <img src="images/phone.png" id="Image18" alt=""></div>
-=======
+
 
 
 
@@ -365,7 +366,6 @@ function autoResize(id){
 <input name="text" id="TextArea40"type="email" required="required" placeholder="Abonnez-vous">
 <input name="submit"id="TextArea41" id="TextArea41"type="submit" value="S'abonner">
 
->>>>>>> origin/master
 </div>
 
 
