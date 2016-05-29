@@ -353,9 +353,10 @@ function autoResize(id){
 
 <div id="wb_Text34">
 <span style="color:#707070;font-family:Exo;font-size:20px;">ABONNER VOUS A NOTRE <br> NEWS LETTER</span>
-<input name="text" id="TextArea40"type="email" required="required" placeholder="Abonnez-vous">
+<form action="abonner.php" method="POST">
+<input name="email" id="TextArea40"type="email" required="required" placeholder="Abonnez-vous">
 <input name="submit"id="TextArea41" id="TextArea41"type="submit" value="S'abonner">
-
+</form>
 </div>
 
 
