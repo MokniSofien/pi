@@ -8,6 +8,7 @@
 <link href="fronte.css" rel="stylesheet">
 <link href="page6.css" rel="stylesheet">
 <link href="../head.css" rel="stylesheet">
+<link href="../pop.css" rel="stylesheet">
 <script>
 function ValidateLayer2(theForm)
 {
@@ -126,8 +127,21 @@ function ValidateLayer2(theForm)
 
 <!-- header-->
 
-
 <!-- header-->
+<div id="fade" class="black_overlay"></div>
+<div id="fadep" class="black_overlayp"></div>
+<div align="center" style="    margin-left: 10%;
+    width: 900px;
+    margin: auto;
+    position: relative;
+    margin-right: auto;    z-index: 9999; ">   <div id="light" class="white_content"> 
+
+<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><iframe onload="autoResize('myframe')"  id="myframe" scrolling= "yes" style="  border:none;" src="default.html" ></iframe>
+
+<img src="../images/x.png" style="position: absolute; top:-20px;left:-30px ; width:54px;"></a></div>
+		
+		<div id="fade" class="black_overlay"></div></div>
+
 <div id="PageHeader1"style="overflow:none;" >
 <div id="wb_Image1" >
 <img src="../images/logg.png" id="Image1" alt=""></div>
@@ -150,15 +164,15 @@ function ValidateLayer2(theForm)
 
 
 
-		
 <div id="Layer2" >
-  <form action="../acceuil/recherche.php" method="POST"> 
+  <form action="recherche.php" method="POST"> 
 <input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:12px;z-index:0;" rows="0" cols="27"></textarea>
 <div id="wb_Image2" >
 
   <button name="submit" type="submit" value="valider" style=" background-color: transparent; border: none;">
 <img style="    width: 15px;"src="../images/recheche.png" id="Image2" alt=""></button>
-</form></div>
+</form>
+</div>
 <div id="wb_Image3">
 
 <script language="JavaScript" type="text/javascript">
@@ -169,14 +183,49 @@ function ValidateLayer2(theForm)
 	
 	</script>
 	
+<script>
+function autoResize(id){
+    var newheight;
+    var newwidth;
+
+    if(document.getElementById){
+        newheight=document.getElementById(id).contentWindow.document.body.scrollHeight;
+        newwidth=document.getElementById(id).contentWindow.document.body.scrollWidth;
+    }
+
+    document.getElementById(id).height=(newheight) + "px";
+    document.getElementById(id).width=(newwidth) + "px"; 
+}
+
+</script>
+
 
 <!-- login -->
-<a  href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';changeFrame('../connexion/');"><img src="../images/icone6.png" id="im_profil" alt=""></a>
-<div id="light" class="white_content"> <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><iframe id="myframe" scrolling= "no" style="  height:100% ; width:100%;" src="default.html" ></iframe><span style="position: absolute; top:10px;left:10px">Close</span></a></div>
-		<div id="fade" class="black_overlay"></div>
+
+<a  href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';changeFrame('../connexion/');center();"><img src="../images/icone6.png" id="im_profil" alt=""></a>
+
 		<!-- end login --> 
 		</div>
-		<div id="profil"><img id="im_profil" src="../images/icone5.png"></div>
+		
+		<div id="profil">
+		
+<script language="JavaScript" type="text/javascript">
+	
+	  function changeFramee(newPage){
+		document.getElementById("myframep").src = newPage;
+	  }
+	
+	</script>
+<a  href = "javascript:void(0)" onclick = "document.getElementById('lightp').style.display='block';document.getElementById('fadep').style.display='block';changeFramee('../panier_connexion/page8.html');"><img id="im_profil" src="../images/icone5.png"><a/></div>
+		<div id="lightp" class="white_contentp"> 
+		
+<a href = "javascript:void(0)" onclick = "document.getElementById('lightp').style.display='none';document.getElementById('fadep').style.display='none'"><iframe id="myframep" scrolling= "no" style="  height:500px ; width:780px ;border:none;" src="default.html" ></iframe>
+
+<img src="../images/x.png" style="position: absolute; top:-20px;left:-30px ; width:54px;"></a></div>
+
+
+
+
 </div>
 
 
@@ -186,7 +235,6 @@ function ValidateLayer2(theForm)
 </div>
 </div>
 </div>
-
 <!--end header-->
 
 
