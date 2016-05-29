@@ -78,7 +78,7 @@ function ValidateLayer2(theForm)
    <div id="wb_Image9">
       <img src="../images/10.png" id="Image9" alt=""></div>
    <div id="wb_Text12">
-      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>1</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Listes</strong></span></div>
+      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>5</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Analyses</strong></span></div>
    <div id="wb_Text13">
       <span style="color:#00BFFF;font-family:Arial;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
    <div id="wb_Text14">
@@ -90,15 +90,15 @@ function ValidateLayer2(theForm)
    <div id="wb_Text16">
       <span style="color:#00BFFF;font-family:Arial;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
    <div id="wb_Text15">
-      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>1</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Listes</strong></span></div>
+      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>2</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Ventes</strong></span></div>
    <div id="wb_Text18">
-      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>1</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Listes</strong></span></div>
+      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>3</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Dépenses </strong></span></div>
    <div id="wb_Text19">
       <span style="color:#00BFFF;font-family:Arial;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
    <div id="wb_Text20">
       <span style="color:#000000;font-family:Arial;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…<br>Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…</span></div>
    <div id="wb_Text21">
-      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>1</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Listes</strong></span></div>
+      <span style="color:#00BFFF;font-family:Arial;font-size:19px;"><strong>4</strong></span><span style="color:#000000;font-family:Arial;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Arial;font-size:19px;"><strong>Projets</strong></span></div>
    <div id="wb_Text22">
       <span style="color:#00BFFF;font-family:Arial;font-size:13px;">Lorem ipsum dolor sit amet conse ctetu</span></div>
    <div id="wb_Text23">

@@ -40,7 +40,7 @@ function ValidateLayer2(theForm)
 <div id="wb_Image5">
 <img src="../images/tte.png" id="Image5" alt=""></div>
 <div id="wb_Image10">
-<img src="../images/img.png" id="Image10" alt=""></div>
+<img src="../images/NV gestion RH.jpg" id="Image10" alt=""></div>
 </div>
 </div> </a>
 <a onclick="change2()" >
@@ -54,7 +54,7 @@ function ValidateLayer2(theForm)
 <div style="margin-left:18px;"><span style="color:#000000;font-family:Exo;font-size:13px;">utilisés dans une recette.</span></div>
 </div>
 <div id="wb_Image12">
-<img src="../images/img.png" id="Image12" alt=""></div>
+<img src="../images/NV Commande.jpg" id="Image12" alt=""></div>
 <div id="wb_Text14">
 <span style="color:#4BB1CB;font-family:Arial;font-size:15px;"><strong>Gestion de stock</strong></span></div>
 <div id="wb_Image9">
@@ -73,7 +73,7 @@ function ValidateLayer2(theForm)
 <div id="wb_Text20">
 <span style="color:#000000;font-family:Arial;font-size:13px;">qui regroupe tous les produits de l’entreprise et les données qui leurs sont propres tels que le code, la catégorie, la taxe … Pour chaque produit il y a une liberté de le voir plus en détail, de le modifier ou bien de le supprimer de la liste.</span></div>
 <div id="wb_Image14">
-<img src="../images/img.png" id="Image14" alt=""></div>
+<img src="../images/NV Commande consulté.jpg" id="Image14" alt=""></div>
 </div>
 </div>
 
@@ -86,7 +86,7 @@ function ValidateLayer2(theForm)
 <div style="margin-left:18px;"><span style="color:#000000;font-family:Arial;font-size:13px;">l'inventaire&nbsp; et la liste des retour casses.</span></div>
 </div>
 <div id="wb_Image16">
-<img src="../images/img.png" id="Image16" alt=""></div>
+<img src="../images/NV Depense.jpg" id="Image16" alt=""></div>
 <div id="wb_Text16">
 <span style="color:#4BB1CB;font-family:Arial;font-size:15px;"><strong>gestion de l'inventaire </strong></span></div>
 <div id="wb_Image7">
@@ -103,7 +103,7 @@ function ValidateLayer2(theForm)
 <div style="margin-left:18px;"><span style="color:#000000;font-family:Arial;font-size:13px;">liées au commande.</span></div>
 </div>
 <div id="wb_Image18">
-<img src="../images/img.png" id="Image18" alt=""></div>
+<img src="../images/NV Rapport rendement rh.jpg" id="Image18" alt=""></div>
 <div id="wb_Image6">
 <img src="../images/no.png" id="Image6" alt=""></div>
 <div id="wb_Text17">
@@ -208,7 +208,7 @@ function change1()
     var taille = document.getElementById('Layer4');
 	taille.style.overflow = 'hidden' ;
     if (taille.style.height=="50px") {
-	taille.style.height = '336px' ;
+	taille.style.height = '500px' ;
 	
         
     } else {
@@ -221,7 +221,7 @@ function change1()
 	 var taille = document.getElementById('Layer6');
 	 taille.style.overflow = 'hidden' ;
     if (taille.style.height=="50px") {
-	taille.style.height = '336px' ;
+	taille.style.height = '500px' ;
 		
         
     } else {
@@ -234,7 +234,7 @@ function change1()
 	 var taille = document.getElementById('Layer7');
 	 taille.style.overflow = 'hidden' ;
     if (taille.style.height=="50px") {
-	taille.style.height = '336px' ;
+	taille.style.height = '500px' ;
 		
         
     } else {
@@ -247,7 +247,7 @@ function change1()
 	 var taille = document.getElementById('Layer8');
 	 taille.style.overflow = 'hidden' ;
     if (taille.style.height=="50px") {
-	taille.style.height = '336px' ;
+	taille.style.height = '500px' ;
 		
         
     } else {
@@ -260,7 +260,7 @@ function change1()
 	var taille = document.getElementById('Layer9');
 	taille.style.overflow = 'hidden' ;
     if (taille.style.height=="50px") {
-	taille.style.height = '336px' ;
+	taille.style.height = '500px' ;
 	
         
     } 

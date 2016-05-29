@@ -76,18 +76,18 @@ function ValidateLayer2(theForm)
 </div>
 <div id="Layer10">
 <div id="Layer10_Container">
-<table id="Table1">
+<table  id="Table1">
 <tr>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> </span></td>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> <strong>Basic</strong></span></td>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong>Business</strong></span></td>
-<td class="cell1"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> <strong>Enterprise</strong></span></td>
+<td class="ce"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> </span></td>
+<td class="ce"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> <strong>Basic</strong></span></td>
+<td class="ce"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong>Business</strong></span></td>
+<td class="ce"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> <strong>Enterprise</strong></span></td>
 </tr>
 <tr>
 <td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong> Prix par utilisateur / mois<br>(engagement annuel)</strong></span></td>
-<td class="cell0"><span style="color:#00BFFF;font-family:Arial;font-size:16px;line-height:19px;"><strong> 50 $</strong></span></td>
-<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:19px;"> </span><span style="color:#00BFFF;font-family:Arial;font-size:16px;line-height:19px;"><strong> 70 $<br></strong></span></td>
-<td class="cell1"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:19px;"> </span><span style="color:#00BFFF;font-family:Arial;font-size:16px;line-height:19px;"><strong> 100 $<br></strong></span></td>
+<td class="cell0"><span style="color:#00BFFF;font-family:Arial;font-size:25px;line-height:19px;"><strong> 50 $</strong></span></td>
+<td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:19px;"> </span><span style="color:#00BFFF;font-family:Arial;font-size:25px;line-height:19px;"><strong> 70 $<br></strong></span></td>
+<td class="cell1"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:19px;"> </span><span style="color:#00BFFF;font-family:Arial;font-size:25px;line-height:19px;"><strong> 100 $<br></strong></span></td>
 </tr>
 <tr>
 <td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><strong> Prix par utilisateur / mois<br>(engagement mensuel)</strong></span></td>
@@ -195,6 +195,7 @@ function ValidateLayer2(theForm)
 
 <div id="Layer3">
 <div id="Layer3_Container">
+
 <div id="Layer4">
 <div id="wb_Text15">
 <span style="color:#000000;font-family:Arial;font-size:19px;">50 $</span></div>
@@ -209,6 +210,7 @@ function ValidateLayer2(theForm)
 <hr id="Line2">
 <div id="wb_Image8">
 <img src="../images/engrenage.png" id="Image8" alt=""></div>
+
 </div>
 <div id="Layer5">
 <div id="wb_Text6">

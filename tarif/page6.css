@@ -142,7 +142,9 @@ body
 }
 #Layer7
 {
-   background-color: transparent;
+	margin:10px;
+	background-color: #f7f7f9;
+  
 }
 #Image6
 {
@@ -168,10 +170,22 @@ body
 {
    background-color: transparent;
 }
+
+#Layer4:hover {
+    border: 2px solid #4BB1CB;
+}
+#Layer5:hover {
+    border: 2px solid #4BB1CB;
+}
+#Layer6:hover {
+    border: 2px solid #4BB1CB;
+}
+
 #Layer4
 {
+	
    background-color: transparent;
-   border: 1px #00BFFF solid;
+   border: 1px #d0d0d2 solid;
    -moz-border-radius: 1px;
    -webkit-border-radius: 1px;
    border-radius: 1px;
@@ -261,7 +275,7 @@ body
 #Layer5
 {
    background-color: transparent;
-   border: 1px #00BFFF solid;
+   border: 1px #d0d0d2 solid;
    -moz-border-radius: 1px;
    -webkit-border-radius: 1px;
    border-radius: 1px;
@@ -351,7 +365,7 @@ body
 #Layer6
 {
    background-color: transparent;
-   border: 1px #00BFFF solid;
+   border: 1px #d0d0d2 solid;
    -moz-border-radius: 1px;
    -webkit-border-radius: 1px;
    border-radius: 1px;
@@ -440,7 +454,8 @@ body
 }
 #Layer8
 {
-   background-color: transparent;
+	margin:10px;
+   background-color: #f7f7f9;
 }
 #Image7
 {
@@ -464,7 +479,8 @@ body
 }
 #Layer9
 {
-   background-color: transparent;
+	margin:10px;
+   background-color: #f7f7f9;
 }
 #Image9
 {
@@ -488,13 +504,14 @@ body
 }
 #Layer10
 {
-   background-color: #FAFAFA;
+   background-color: transparent;
 }
 #Table1
 {
-   border: 2px #C0C0C0 solid;
+	
+  
    background-color: transparent;
-   border-spacing: 1px;
+   border-spacing: 0px;
 }
 #Table1 td
 {
@@ -508,6 +525,15 @@ body
 {
    background-color: transparent;
    border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 232px;
+   height: 93px;
+}
+#Table1 .ce
+{
+   background-color: transparent;
+   border: 0px #C0C0C0 solid;
    text-align: center;
    vertical-align: middle;
    width: 232px;
@@ -626,9 +652,9 @@ body
 #Line6
 {
    position: absolute;
-   left: 4px;
+   
    top: 378px;
-   width: 236px;
+    width: 100%;
    height: 3px;
    z-index: 47;
 }
@@ -778,6 +804,7 @@ body
 }
 #wb_Image4
 {
+	border: 1px solid #4BB1CB;
    position: absolute;
    left: 112px;
    top: 364px;
@@ -799,7 +826,7 @@ body
 {
    position: absolute;
    text-align: center;
-   left: 121px;
+   left: 13%;
    top: 181px;
    width: 77%;
    height: 554px;
@@ -816,6 +843,7 @@ body
 }
 #wb_Image5
 {
+	border: 1px solid #4BB1CB;
    position: absolute;
    left: 112px;
    top: 364px;
@@ -984,6 +1012,7 @@ body
 }
 #wb_Image8
 {
+	 border: 1px solid #4BB1CB;
    position: absolute;
    left: 112px;
    top: 364px;
@@ -1004,10 +1033,11 @@ body
 }
 #Layer7
 {
+	background-color: #f7f7f9;
    position: absolute;
    text-align: left;
    left: 27%;
-   top: 767px;
+   top: 757px;
    width: 491px;
    height: 171px;
    z-index: 95;
@@ -1064,9 +1094,11 @@ body
 #Line1
 {
    position: absolute;
-   left: 4px;
+   
+   
+   
+   width: 100%;
    top: 85px;
-   width: 236px;
    height: 3px;
    z-index: 30;
 }
@@ -1083,7 +1115,7 @@ body
    position: absolute;
    text-align: left;
    left: 27%;
-   top: 1109px;
+   top: 1119px;
    width: 491px;
    height: 171px;
    z-index: 97;
@@ -1127,13 +1159,17 @@ body
    width: 96px;
    height: 25px;
    z-index: 34;
+   background: #4BB1CB;
+   border: navajowhite;
 }
 #Line2
 {
    position: absolute;
-   left: 4px;
+   
    top: 378px;
-   width: 236px;
+   
+   
+   width: 100%;
    height: 3px;
    z-index: 31;
 }
@@ -1163,13 +1199,17 @@ body
    width: 96px;
    height: 25px;
    z-index: 42;
+   background: #4BB1CB;
+   border: navajowhite;
 }
 #Line3
 {
    position: absolute;
-   left: 4px;
+   
    top: 85px;
-   width: 236px;
+    
+   
+   width: 100%;
    height: 3px;
    z-index: 38;
 }
@@ -1186,9 +1226,9 @@ body
 #Line4
 {
    position: absolute;
-   left: 4px;
+    
    top: 378px;
-   width: 236px;
+ width: 100%;
    height: 3px;
    z-index: 39;
 }
@@ -1210,13 +1250,15 @@ body
    width: 96px;
    height: 25px;
    z-index: 26;
+       background: #4BB1CB;
+    border: navajowhite;
 }
 #Line5
 {
    position: absolute;
-   left: 4px;
+    
    top: 85px;
-   width: 236px;
+    width: 100%;
    height: 3px;
    z-index: 46;
 }
