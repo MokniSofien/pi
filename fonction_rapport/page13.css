@@ -515,16 +515,17 @@ body
 }
 #Button1
 {
-   
-   -moz-border-radius: 1px;
-   -webkit-border-radius: 1px;
-   border-radius: 1px;
+
+   border:none;
    background-color: transparent;
    color: #4EB0CA;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
+      
+
 }
+
 #TextArea2
 {
    border: 2px #fff solid;
@@ -532,7 +533,7 @@ body
    -webkit-border-radius: 2px;
    border-radius: 2px;
    background-color: transparent;
-   color :#000000;
+   color :#FFFFFF;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
@@ -988,12 +989,13 @@ body
    z-index: 66;
 }
 #Button1
-{
+{ border:none;
    position: absolute;
    left: 77%;
    top: 33%;
  
    z-index: 55;
+}
 }
 #wb_Text26
 {
@@ -1497,6 +1499,7 @@ div#container
 }
 #Button1
 {
+	
    left: 66%;
    top: 61%;
    width: 16%;

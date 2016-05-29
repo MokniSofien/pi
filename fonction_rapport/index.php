@@ -178,9 +178,11 @@ function ValidateLayer2(theForm)
 <div id="Layer4">
 <div id="wb_Text32">
  <span style="color:#FFFFFF;font-family:Arial;font-size:16px;">S'INSCRIRE AU NEWSLETTER</span></div>
-   <textarea name="TextArea1" id="TextArea2" rows="0" cols="56" placeholder="Email *"></textarea>
-   
-  <input type="image" id="Button1" src="../images/news.png">
+  <form action="abonner.php" method="POST">
+   <input name="email" id="TextArea2" type="Email" rows="0" cols="56" placeholder="Email *" required="required">
+     <button name="submit" type="submit" id="Button1" style=" overflow: hidden; outline: none;" ><img src="../images/news.png" ></button>
+
+  </form>
 </div>
 <div id="PageFooter1">
 <div id="PageFooter1_Container">
