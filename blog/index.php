@@ -98,7 +98,7 @@ while($ligne=mysqli_fetch_array($response)){
 <div id="wb_Text26" style="position:absolute;left:205px;top:120px;width:102px;height:16px;z-index:40;text-align:left;">
 <span style="color:#4EB0CA;font-family:Arial;font-size:13px;"><?php echo $ligne['date']?></span></div>
 <div id="wb_Image8" style="position:absolute;left:77px;top:175px;width:515px;height:304px;z-index:41;">
-<img src="../imageproduit/<?php echo $ligne['image'];?>"id="Image8" alt="" /></div>
+<img src="../../admin/imageproduit/<?php echo $ligne['image'];?>"id="Image8" alt="" /></div>
  <div id="wb_Text27" style="position:absolute;    word-wrap: break-word; left:77px;top:600px;width:900px;height:96px;z-index:42;text-align:left;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><em><?php echo $ligne['text']?></em></span></div>
 
