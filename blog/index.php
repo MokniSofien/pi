@@ -72,7 +72,7 @@ function ValidateLayer3(theForm)
 
 
 <div id="wb_Text19" style="position:absolute;left:518px;top:167px;width:54px;height:23px;z-index:63;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:20px;">Blog</span></div>
+<span style="color:#50B5D8;font-family:Arial;font-size:20px;">Blog</span></div>
 <div id="Layer4" style="position:absolute;text-align:left;left:30px;top:232px;width:737px;height:890px;z-index:64;">
    <?php 
 
@@ -88,15 +88,15 @@ while($ligne=mysqli_fetch_array($response)){
 
 ?>
 <div id="wb_Text24" style="position:absolute;left:220px;top:60px;width:568px;height:18px;z-index:36;text-align:center;">
-<span style="color:#000000;font-family:Arial;font-size:15px;"><strong><?php echo $ligne['titre']?></strong></span></div>
+<span style="color:#50B5D8;font-family:Arial;font-size:15px;"><strong><?php echo $ligne['titre']?></strong></span></div>
 <div id="wb_Text25" style="position:absolute;left:111px;top:120px;width:74px;height:16px;z-index:37;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;"><?php echo $ligne['auteur']?></span></div>
+<span style="color:#50B5D8;font-family:Arial;font-size:13px;"><?php echo $ligne['auteur']?></span></div>
 <div id="wb_Image7" style="position:absolute;left:182px;top:120px;width:15px;height:16px;z-index:38;">
 <img src="../images/cal%20min.png" id="Image7" alt=""></div>
 <div id="wb_Image6" style="position:absolute;left:96px;top:120px;width:13px;height:14px;z-index:39;">
 <img src="../images/min%20admin.png" id="Image6" alt=""></div>
 <div id="wb_Text26" style="position:absolute;left:205px;top:120px;width:102px;height:16px;z-index:40;text-align:left;">
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;"><?php echo $ligne['date']?></span></div>
+<span style="color:#50B5D8;font-family:Arial;font-size:13px;"><?php echo $ligne['date']?></span></div>
 <div id="wb_Image8" style="position:absolute;left:77px;top:175px;width:515px;height:304px;z-index:41;">
 <img src="../../admin/imageproduit/<?php echo $ligne['image'];?>"id="Image8" alt="" /></div>
  <div id="wb_Text27" style="position:absolute;    word-wrap: break-word; left:77px;top:600px;width:900px;height:96px;z-index:42;text-align:left;">
@@ -112,6 +112,7 @@ while($ligne=mysqli_fetch_array($response)){
  } ?>
 </div>
 </div>
+<<<<<<< HEAD
 <!-- header-->
 <div id="fade" class="black_overlay"></div>
 <div id="fadep" class="black_overlayp"></div>
@@ -120,6 +121,8 @@ while($ligne=mysqli_fetch_array($response)){
     margin: auto;
     position: relative;
     margin-right: auto;    z-index: 9999; ">   <div id="light" class="white_content"> 
+=======
+>>>>>>> origin/master
 
 <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><iframe onload="autoResize('myframe')"  id="myframe" scrolling= "yes" style="  border:none;" src="default.html" ></iframe>
 
