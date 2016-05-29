@@ -386,7 +386,9 @@ body
 }
 #Layer16
 {
-   background-color: #4EB1CB;
+   background-color: transparent;
+ 
+   border: 1px  #4EB1CB solid;
 }
 #wb_Text17 
 {
@@ -402,7 +404,9 @@ body
 }
 #Layer17
 {
-   background-color: #4EB1CB;
+   background-color: transparent;
+ 
+   border: 1px  #4EB1CB solid;
 }
 #wb_Text18 
 {
@@ -418,7 +422,9 @@ body
 }
 #Layer18
 {
-   background-color: #4EB1CB;
+   background-color: transparent;
+ 
+   border: 1px  #4EB1CB solid;
 }
 #wb_Text19 
 {
@@ -434,7 +440,9 @@ body
 }
 #Layer19
 {
-   background-color: #4EB1CB;
+   background-color: transparent;
+ 
+   border: 1px  #4EB1CB solid;
 }
 #wb_Text20 
 {
@@ -709,6 +717,7 @@ body
    background-color: transparent;
 }
 #com {
+	overflow: hidden;
 	background-color: #efeff3;
     float: left;
     position: relative;
@@ -719,6 +728,7 @@ body
     z-index: 59;
 }
 #com1 {
+	overflow: hidden;
 	background-color: #efeff3;
     float: left;
     position: relative;
@@ -729,6 +739,7 @@ body
     z-index: 59;
 }
 #com2 {
+	overflow: hidden;
 	background-color: #efeff3;
     float: left;
     position: relative;
@@ -739,6 +750,7 @@ body
     z-index: 59;
 }
 #com3 {
+	overflow: hidden;
 	background-color: #efeff3;
     float: left;
     position: relative;

@@ -22,35 +22,7 @@ function ValidateLayer2(theForm)
    return true;
 }
 </script>
-<style>
-<!-- style ta3 el login --> 
-		.black_overlay{
-			display: none;
-			position: absolute;
-			top: 0%;
-			left: 0%;
-			width: 100%;
-			height: 100%;
-			background-color: black;
-			z-index:1001;
-			
-			
-		}
-		.white_content {
-			display: none;
-			position: fixed;
-			top: 15%;
-			left: 150px;
-			right:150px;
-			width: auto;
-			height:80%;
-			padding: 0px;
-			border: 5px solid #4EB0CA;
-			
-			z-index:1002;
-			overflow: none;
-		}
-	</style>
+
 </head>
 <body>
 <div id="container">
@@ -125,34 +97,78 @@ function ValidateLayer2(theForm)
 
 <div id="Layer6">
 <div id="Layer3">
-<div id="wb_Image5">
 
-<img onclick="changeImagee()" src="../images/Show.png" id="Image5" alt=""></div>
+<img src="../images/pcc.png" id="Image6" alt=""></div>
+<div style="    position: absolute;
+    top: 200px;
+    left: 120px;">
+<span style="color:#4EB0CA ;font-family:Exo;font-size:19px;" >CoffeePark</span>
+</div>
 <div id="wb_Text13">
-<span style="color:#000000;font-family:Exo;font-size:13px;">Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna <br><br>praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus,<br><br> cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit<br><br> facilisi, mi mattis pariatur aliquam pharetra eget.<br><br><br><br>Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna <br><br>praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus,<br><br> cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit<br><br> facilisi, mi mattis pariatur aliquam pharetra eget.<br><br><br><br><br>Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna <br><br>praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus,<br><br> cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit<br><br> facilisi, mi mattis pariatur aliquam pharetra eget.</span></div>
-<div id="wb_Image7">
-<img  src="../images/gea1.png" id="Image7" alt=""></div>
+<span style="color:#cecece;font-family:Exo;font-size:15px;">World Park est une compagne digital fut de développer 
+une charte graphique, Cette ligne graphique générale a donc pour vocation de renforcer le logotype. Au-delà de 
+la cohérence générale recherchée, cette charte se veut suffisamment souple pour permettre à la diversité des 
+supports de communication d'exister les uns par rapport aux autres. C'est pourquoi, cette charte graphique
+ s'articule autour de 4 grandes parties : </span></div>
+ <div id="wb_Texts">
+<video width="100%" height="100%" controls>
+  <source src="demo hend000.mp4" type="video/mp4">
+
+</video></div>
+
 <div id="wb_Text12">
-<span style="color:#00BFFF;font-family:Exo;font-size:16px;"><strong>Présentation </strong></span></div>
+<span style="color:#8c8c8c;font-family:Exo;font-size:32px;"><strong><FONT COLOR="#4eb1cb" >Présentation </font>& démonstration  </strong></span>
 <hr id="Line1">
+</div>
+
 </div>
 
 
 
 <div id="Layer4">
-<div id="wb_Image5">
 
-<img onclick="changeImage()" src="../images/Show.png" id="Image_5" alt=""> </div>
-<div id="wb_Text12">
-<span style="color:#00BFFF;font-family:Exo;font-size:16px;"><strong>Démonstration</strong></span></div>
-<hr id="Line1">
-<div id="wb_Image7">
-<img src="../images/gea1.png" id="Image8" alt=""></div>
+<div id="wb_Text122">
+<span style="color:#4EB0CA ;font-family:Exo;font-size:26px;"><strong>Essayer gratuitement</strong></span></div>
 
-<div id="wb_Image6">
-<img src="../images/pcc.png" id="Image6" alt=""></div>
-</div>
 
+
+
+
+
+
+<input type="submit" id="Button1" name="envoi" value="Essayer"  style="
+    border: 2px #4EB0CA solid;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    background-color: transparent;
+    color: #4EB0CA;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+	position:relative;
+	left:29%;
+	width:255px;
+	height:35px;
+	top:100px;">
+	
+	
+<input type="submit" id="Button2" name="envoi" value="Commander"  style="
+    border: 2px #4EB0CA solid;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    background-color: transparent;
+    color: #4EB0CA;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+	position:relative;
+	left:32%;
+	width:255px;
+	height:35px;
+	
+	top:100px;">
 
 
 
