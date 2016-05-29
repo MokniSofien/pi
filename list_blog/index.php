@@ -122,7 +122,7 @@ function ValidateLayer2(theForm)
 
 <div id="container">
 <div id="wb_Text19" style="position:absolute;left:518px;top:167px;width:54px;height:23px;z-index:51;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:20px;">Blog</span></div>
+<span style="color:#50B5D8;font-family:Arial;font-size:20px;">Blog</span></div>
 
 
 
@@ -144,17 +144,17 @@ while($ligne=mysqli_fetch_array($result))
 <span style="color:#000000;font-family:Arial;font-size:13px;"><em> 
 <?php echo substr($ligne['text'],0,30)?>[...]</em></span></div>
 <div id="wb_Text24">
-<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="../blog/index.php?id=<?php echo $ligne['id'];?>"><?php echo $ligne['titre']?></a></span></div>
+<span style="color:#50B5D8;font-family:Arial;font-size:16px;"><?php echo $ligne['titre']?></span></div>
 <div id="wb_Text25" >
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;"><?php echo $ligne['auteur']?></span></div>
+<span style="color:#50B5D8;font-family:Arial;font-size:13px;"><?php echo $ligne['auteur']?></span></div>
 <div id="wb_Image7" >
 <img src="../images/cal%20min.png" id="Image7" alt=""></div>
 <div id="wb_Image6" >
 <img src="../images/min%20admin.png" id="Image6" alt=""></div>
 <div id="wb_Text26" >
-<span style="color:#4EB0CA;font-family:Arial;font-size:13px;"><?php echo $ligne['date']?></span></div>
+<span style="color:#50B5D8;font-family:Arial;font-size:13px;"><?php echo $ligne['date']?></span></div>
 <div id="wb_Image13" >
-<img src="../../admin/imageproduit/<?php echo $ligne['image'];?>"id="Image13" alt="" /></div>
+<a href="../blog/index.php?id=<?php echo $ligne['id'];?>"><img src="../../admin/imageproduit/<?php echo $ligne['image'];?>"id="Image13" alt="" /></a></div>
 </div>
 <?php } ?>
 </div>

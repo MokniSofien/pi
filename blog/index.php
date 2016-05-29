@@ -112,7 +112,6 @@ while($ligne=mysqli_fetch_array($response)){
  } ?>
 </div>
 </div>
-<!-- header-->
 
 
 <div id="PageHeader1"style="overflow:none;" >
