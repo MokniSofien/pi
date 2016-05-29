@@ -37,35 +37,7 @@ function ValidateLayer3(theForm)
    return true;
 }
 </script>
-<style>
-<!-- paramaitre ta3 el login --> 
-		.black_overlay{
-			display: none;
-			position: absolute;
-			top: 0%;
-			left: 0%;
-			width: 100%;
-			height: 100%;
-			background-color: black;
-			z-index:1001;
-			
-			
-		}
-		.white_content {
-			display: none;
-			position: fixed;
-			top: 15%;
-			left: 150px;
-			right:150px;
-			width: auto;
-			height:80%;
-			padding: 0px;
-			border: 5px solid #4EB0CA;
-			
-			z-index:1002;
-			overflow: none;
-		}
-	</style>
+
 
 </head>
 <body>
@@ -122,8 +94,7 @@ while($ligne=mysqli_fetch_array($response)){
     margin: auto;
     position: relative;
     margin-right: auto;    z-index: 9999; ">   <div id="light" class="white_content"> 
-=======
->>>>>>> origin/master
+
 
 <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><iframe onload="autoResize('myframe')"  id="myframe" scrolling= "yes" style="  border:none;" src="default.html" ></iframe>
 
