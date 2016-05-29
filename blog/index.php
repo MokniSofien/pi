@@ -8,6 +8,7 @@
 <link href="blog_ouver.css" rel="stylesheet">
 <link href="../head.css" rel="stylesheet">
 <link href="../footer.css" rel="stylesheet">
+<link href="../pop.css" rel="stylesheet">
 <script>
 function ValidateLayer2(theForm)
 {
@@ -112,7 +113,7 @@ while($ligne=mysqli_fetch_array($response)){
  } ?>
 </div>
 </div>
-<<<<<<< HEAD
+
 <!-- header-->
 <div id="fade" class="black_overlay"></div>
 <div id="fadep" class="black_overlayp"></div>
