@@ -81,11 +81,27 @@ while($ligne=mysqli_fetch_array($response)){
 <span style="color:#000000;font-family:Exo;font-size:13px;"><em></em></span></div>
 <div id="wb_Text30" style="position:absolute;left:77px;top:716px;width:530px;height:96px;z-index:46;text-align:left;">
 <span style="color:#000000;font-family:Exo;font-size:13px;"><em></em></span></div>
-<?php
- } ?>
- <img style="position:absolute; bottom: 150px;;left:30px;" src="../images/tag.png" id="" alt="">
- <div id="wb_Text30" style="position:absolute; bottom: 100px;;left:160px;width:530px;height:96px;z-index:46;text-align:left;">
-<span style="color:#000000;font-family:Exo;font-size:13px;"><em>lahna el comment</em></span></div>
+
+
+	<?php
+	// Create connection
+	
+	$req = 'SELECT * FROM commentaire WHERE id_article='.$id;
+	$res=mysqli_query($db,$req);
+	while($data1 = mysqli_fetch_array($res)){
+
+	?>
+	
+
+
+
+
+
+
+ <img style="position:absolute; bottom: 150px;left:30px;" src="../images/tag.png" id="" alt="">
+ <div id="wb_Text30" style="position:absolute; bottom: 100px;left:160px;width:530px;height:96px;z-index:46;text-align:left;">
+<span style="color:#000000;font-family:Exo;font-size:13px;"><p style="text-decoration: underline;"> <?php echo '<p>'.$data1['nom'].'</p>';?> <?php echo  '<p aligne\"right\">'.date("j/n/Y G:i",strtotime($data1['date'])).'</p>' ;?></p><em>  <?php echo '<p>'.$data1['comment'].'</p>';?></em></span></div>
+<?php }?>	
 </div>
 
 <div id="comment">
@@ -93,20 +109,27 @@ while($ligne=mysqli_fetch_array($response)){
 <img style="position:absolute;left:70px;top: 7px;" src="../images/g+.png" id="" alt="">
 <img style="position:absolute;left:100px;top: 3px;"src="../images/twitter.png" id="" alt="">
 <hr id="Line1">
+
+
+
 <div id="wb_Text19" style="position:absolute;width:auto;height:20px;top:50px;left:43px;z-ndex:63;text-align:left;">
 <span style="color:#black;font-family:Exo;font-size:12px;">Laisser un Commentaire ...</span></div>
 
-<form action="contact_form.php" method="POST">
+<form action="addcom.php" method="POST">
 <input name="nom" id="TextArea7"type="text" style="position:absolute;left:43px;top:122px;width:700px;;height:27px;z-index:43;" rows="0" cols="56" placeholder="Nom :" required="required">
 <input name="email" id="TextArea7" type="email"style="position:absolute;left:43px;top:163px;width:700px;;height:27px;z-index:44;" rows="0" cols="56" placeholder="Email :"required="required">
-<textarea name="message" id="TextArea7" type="text"style="position:absolute;left:43px;top:204px;width:700px;;height:75px;z-index:46;" rows="3" cols="56" placeholder="Message :"required="required"></textarea>
+		<input type="hidden" name="id_article" value="<?php echo $ligne['id'];?>"/></br>
+				<input type="hidden" name="nom_article" value="<?php echo $ligne['titre'];?>"/></br>
+
+<textarea name="message" id="TextArea7" type="text"style="position:absolute;left:43px;top:204px;width:700px;;height:75px;z-index:46;" rows="3" cols="56" placeholder="commentaire :"required="required"></textarea>
 <input type="submit" id="Button1" name="envoi" value="Envoyer" style="position:absolute;left:180px;top:300px;width:177px;height:24px;z-index:47;">
 <input type="submit" id="Button1" name="envoi" value="Annuler" style="position:absolute;left:380px;top:300px;width:177px;height:24px;z-index:47;">
 
 </form>
 
 </div>
-
+<?php
+ } ?>
 </div>
 
 
