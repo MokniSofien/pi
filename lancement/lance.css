@@ -1,0 +1,123 @@
+div#container
+{
+   width: 1099px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+   
+}
+.ligne_verticale
+{  
+margin-left: 50px;
+ 	position: absolute;
+	top:83px;
+    width:1024px;
+	left:105px;
+    height:900px;
+    border:1px solid #50B5D8;
+	margin-bottom:83px;
+}
+#wb_Image4
+{
+	padding-top:30px;
+    position: absolute;
+    left: 160px;
+    top: 39px;
+    width: 650px;
+    height: 106px;
+    z-index: 42;
+}
+#Image4
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image5
+{	padding-top:60px;
+
+    position: absolute;
+    left: 110px;
+    top: 200px;
+    width:1024 px;
+    height: px;
+    z-index: 42;
+}
+#Image5
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text31 
+{    padding-top: 90px;
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text31 div
+{
+   text-align: left;
+}
+#wb_Text31
+{    padding-top: 90px;
+     position: absolute;
+    left: 250px;
+    top: 400px;
+    text-align: center;
+}
+#wb_Text32
+{    padding-top: 120px;
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text32 div
+{
+   text-align: left;
+}
+#wb_Text32
+{ padding-top: 120px;
+       position: absolute;
+    left: 60px;
+    top: 500px;
+    text-align: center;
+}
+#wb_Text33
+{ padding-top: 120px;
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text33 div
+{
+   text-align: left;
+}
+#wb_Text33
+{ padding-top: 120px;
+        position: absolute;
+    left: 400px;
+    top: 650px;
+    text-align: center;
+}
