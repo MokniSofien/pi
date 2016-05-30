@@ -380,11 +380,11 @@ function autoResize(id){
 
 <hr id="Line1">
 <div id="wb_Image18">
-<img src="images/fb.png" id="Image18" alt=""></div>
+<a href ="https://www.facebook.com/Coffee-Park-1013819342041065/?fref=ts&__mref=message_bubble"><img src="images/fb.png" id="Image18" alt=""></a></div>
 <div id="wb_Image44">
-<img src="images/g+.png" id="Image44" alt=""></div>
+<a href ="https://myaccount.google.com/intro"><img src="images/g+.png" id="Image44" alt=""></a></div>
 <div id="wb_Image45">
-<img src="images/twitter.png" id="Image45" alt=""></div>
+<a href ="https://twitter.com/?lang=fr"><img src="images/twitter.png" id="Image45" alt=""></a></div>
 </div>
 <script>
 function changeme() {
