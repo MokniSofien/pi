@@ -744,7 +744,7 @@ body
    text-align: center;
    margin: 20px 0px 0px 0px;
    width: 632px;
-   height: 500px;
+   height: 330px;
    float: left;
    display: block;
    z-index: 49;
@@ -1355,7 +1355,7 @@ div#container
 {
 	overflow:hidden;
    width: 632px;
-   height: 336px;
+   height: 330px;
    visibility: visible;
    display: inline;
 }

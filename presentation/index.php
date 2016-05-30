@@ -137,7 +137,7 @@ supports de communication d'exister les uns par rapport aux autres. C'est pourqu
 
 
 
-<input type="submit" class="btn shake-rotate" id="Button1" name="envoi" value="Essayer"  style="
+<input type="submit" onclick="location.href='../lancement/'" class="btn shake-rotate" id="Button1" name="envoi" value="Essayer"  style="
     border: 2px #4EB0CA solid;
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
@@ -154,7 +154,7 @@ supports de communication d'exister les uns par rapport aux autres. C'est pourqu
 	top:100px;">
 	
 	
-<input type="submit" class="btn shake-rotate" id="Button2" name="envoi" value="Commander"  style="
+<input type="submit" onclick="location.href='../tarif/'"; class="btn shake-rotate" id="Button2" name="envoi" value="Commander"  style="
     border: 2px #4EB0CA solid;
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;

@@ -164,6 +164,7 @@ function autoResize(id){
 
 <div id="Layer4">
 <div id="Layer4_Container">
+<hr id="Line2">
 <div id="wb_Text7">
 <span style="color:#4EB0CA;font-family:Arial;font-size:20px;">Demandez votre version d’essaie gratuitement ( 30 Jours)</span></div>
 <div id="wb_Text6">
