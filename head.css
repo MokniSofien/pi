@@ -44,6 +44,12 @@
    filter: alpha(opacity=80);
    opacity: 0.80;
 }
+input:hover
+{
+color:#fff;
+background:#4eb1cb;	
+	
+}
 #me
 {
     margin: 20px;
