@@ -93,6 +93,7 @@ function ValidateLayer2(theForm)
 <td class="cell3"><span style="color:#000000;font-family:Exo;font-size:13px;line-height:16px;"> 100G</span></td>
 </tr>
 </table>
+
 </div>
 </div>
 </div>
@@ -100,6 +101,8 @@ function ValidateLayer2(theForm)
 <!-- header-->
 
 <!-- header-->
+<input name="submit" type="submit" value="Démarrer votre essai gratuit aujourd'hui!" class="btn">
+
 <div id="fade" class="black_overlay"></div>
 <div id="fadep" class="black_overlayp"></div>
 <div align="center" style="    margin-left: 10%;
@@ -261,7 +264,9 @@ function autoResize(id){
 <hr id="Line6">
 <div id="wb_Image5">
 <img src="../images/engrenage.png" id="Image5" alt=""></div>
+
 </div>
+
 </div>
 </div>
 <div id="PageFooter1">
