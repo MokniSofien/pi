@@ -222,7 +222,7 @@ function autoResize(id){
 <div id="Layer4">
 <div id="wb_Text15">
 <span style="color:#000000;font-family:Exo;font-size:19px;">50 $</span></div>
-<a href="../panier_connexion/page8.html"><input type="submit" id="Button3" name="Commander" value="ajouter au panier"></a>
+<a href="../panier_connexion/page8.html"><input type="submit" id="Button1" name="Commander" value="ajouter au panier"></a>
 <div id="wb_Text16">
 <span style="color:#000000;font-family:Exo;font-size:19px;">Version Basic</span></div>
 <div id="wb_Text17">
