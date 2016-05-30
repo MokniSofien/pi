@@ -8,6 +8,7 @@
 <link href="fronte.css" rel="stylesheet">
 <link href="page11.css" rel="stylesheet">
 <link href="../head.css" rel="stylesheet">
+<link href="csshake-rotate.min.css" rel="stylesheet">
 <script>
 function ValidateLayer2(theForm)
 {
@@ -136,7 +137,7 @@ supports de communication d'exister les uns par rapport aux autres. C'est pourqu
 
 
 
-<input type="submit" id="Button1" name="envoi" value="Essayer"  style="
+<input type="submit" class="btn shake-rotate" id="Button1" name="envoi" value="Essayer"  style="
     border: 2px #4EB0CA solid;
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;

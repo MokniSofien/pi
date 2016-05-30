@@ -1166,9 +1166,9 @@ body
 #Button1
 {
    position: absolute;
-   left: 72px;
-   top: 138px;
-   width: 96px;
+       left: 52px;
+    top: 138px;
+    width: 126px;
    height: 25px;
    z-index: 34;
    background: #4BB1CB;
@@ -1206,9 +1206,9 @@ body
 #Button2
 {
    position: absolute;
-   left: 72px;
-   top: 138px;
-   width: 96px;
+       left: 52px;
+    top: 138px;
+    width: 126px;
    height: 25px;
    z-index: 42;
    background: #4BB1CB;
@@ -1256,9 +1256,10 @@ body
 }
 #Button3
 {
-   position: absolute;
-   left: 72px;
-   top: 138px;
+	position:absolute;
+       left: 52px;
+    top: 138px;
+    width: 126px;
    width: 96px;
    height: 25px;
    z-index: 26;
