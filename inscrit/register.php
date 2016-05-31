@@ -84,7 +84,9 @@ if (mysqli_num_rows($verif_email) != 0)
       $pass=$_POST['pass'];
       $confirm_pass=$_POST['confirm_pass'];
      
-    echo ' <div style="padding-left:240px; margin-top: 10px; margin-bottom:-10px">Votre inscription a bien été pris en compte.</div>';
+   
+	 echo '<body onLoad="alert(\'Votre inscription a bien été pris en compte.\')">';
+	 header('Location: ../connexion');
      
 
      

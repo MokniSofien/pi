@@ -11,7 +11,7 @@
 <?php include('register.php');?>
 <body>
 <div id="container">
-<div id="Layer1" style="position:relative;text-align:center;top:-30px;width:774px;height:583px;z-index:14;">
+<div id="Layer1" style="position:relative;text-align:center;top:-30px;width:774px;height:700px;z-index:14;">
 <div id="Layer1_Container" style="width:774px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 
 <div id="wb_Image1" style="position:absolute;left:185px;top:54px;width:400px;z-index:1;">
@@ -36,7 +36,7 @@
 </select>
 <textarea name="postal" id="TextArea9" style="position:absolute;left:445px;top:424px;width:115px;height:27px;z-index:11;" rows="0" cols="17" placeholder="Code postal *"></textarea>
 <input type="reset" id="Button2" name="Quiter" value="Quiter" style="position:absolute;left:403px;top:481px;width:161px;height:25px;z-index:12;">
-<input type="submit" id="Button1" name="valider" value="Valider" style="position:absolute;left:206px;top:481px;width:161px;height:25px;z-index:13;">
+<input class="btn shake-little"  type="submit" id="Button1" name="valider" value="Valider" style="position:absolute;left:206px;top:481px;width:161px;height:25px;z-index:13;">
 </form>
 </div>
 </div>

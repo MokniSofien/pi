@@ -1,0 +1,408 @@
+
+#Button1
+{
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   border-radius: 2px;
+   
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#mee
+{
+       top: 210px;
+    margin: 20px;
+    width: 700px;
+    height: 100px;
+    border: none;
+    overflow: hidden;
+    position: absolute;
+    left: 35%;	
+}
+#wb_titre 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_titre div
+{
+   text-align: left;
+}
+#wb_presentation 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   
+    text-align: justify;
+
+}
+#wb_presentation div
+{
+ 
+   
+    text-align: justify;
+
+}
+#wb_abonner 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_abonner div
+{
+   text-align: left;
+}
+#wb_contacter 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_contacter div
+{
+   text-align: left;
+}
+#wb_telephone 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_telephone div
+{
+   text-align: left;
+}
+#tweeter
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#facebook
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#gmail
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#trai
+{
+   color: #A0A0A0;
+   background-color: #A0A0A0;
+   border-width: 0;
+   margin: 0;
+   padding: 0;
+}
+#wb_titre2016 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_titre2016 div
+{
+   text-align: left;
+}
+#TextArea1
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   resize: none;
+}
+#footer
+{
+   background-color: #EFEFF3;
+}
+#wb_telephone
+{
+   position: absolute;
+   left: 995px;
+   top: 88px;
+   width: 173px;
+   height: 88px;
+   z-index: 5;
+   text-align: left;
+}
+#wb_tweeter
+{
+   position: absolute;
+   left: 1256px;
+   top: 229px;
+   width: 32px;
+   height: 29px;
+   z-index: 6;
+}
+#TextArea1
+{
+   position: absolute;
+   left: 578px;
+   top: 149px;
+   width: 178px;
+   height: 23px;
+   z-index: 11;
+}
+#trai
+{
+   position: absolute;
+   left: 0px;
+   top: 221px;
+   width: 1299px;
+   height: 1px;
+   z-index: 9;
+}
+#wb_contacter
+{
+   position: absolute;
+   left: 995px;
+   top: 41px;
+   width: 272px;
+   height: 32px;
+   z-index: 4;
+   text-align: left;
+}
+#wb_abonner
+{
+   position: absolute;
+   left: 578px;
+   top: 41px;
+   width: 197px;
+   height: 102px;
+   z-index: 3;
+   text-align: left;
+}
+#wb_presentation
+{
+   position: absolute;
+   left: 32px;
+   top: 88px;
+   width: 402px;
+   height: 119px;
+   z-index: 2;
+   
+    text-align: justify;
+
+}
+#wb_gmail
+{
+   position: absolute;
+   left: 1231px;
+   top: 233px;
+   width: 20px;
+   height: 20px;
+   z-index: 7;
+}
+#footer
+{
+   position: absolute;
+   overflow: hidden;
+   text-align: left;
+   left: 0px;
+   top: 2677px;
+   width: 100%;
+   height: 260px;
+   z-index: 12;
+}
+#wb_titre
+{
+   position: absolute;
+   left: 32px;
+   top: 41px;
+   width: 179px;
+   height: 34px;
+   z-index: 1;
+   text-align: left;
+}
+#Button1{
+	height: 20px;
+    z-index: 54;
+    border-radius: 2px;
+    border: none;
+    background-color: #4EB1CB;
+    color: #FFFFFF;
+    visibility: visible;
+    display: inline;
+}
+#Button1
+{
+   position: absolute;
+   left: 578px;
+   top: 187px;
+   width: 80px;
+   height: 25px;
+   z-index: 0;
+}
+#wb_titre2016
+{
+   position: absolute;
+   left: 17px;
+   top: 233px;
+   width: 156px;
+   height: 22px;
+   z-index: 10;
+   text-align: left;
+}
+#wb_facebook
+{
+   position: absolute;
+   left: 1192px;
+   top:226px;
+   width: 34px;
+   height: 40px;
+   z-index: 8;
+}
+@media only screen and (max-width: 500px)
+{
+#Button1
+{
+   left: 578px;
+   top: 187px;
+   width: 80px;
+   height: 25px;
+   visibility: visible;
+   display: inline;
+}
+#wb_titre
+{
+   left: 32px;
+   top: 41px;
+   width: 179px;
+   height: 34px;
+   visibility: visible;
+   display: inline;
+}
+#wb_presentation
+{
+	
+    text-align: justify;
+   left: 32px;
+   top: 88px;
+   width: 402px;
+   height: 119px;
+   visibility: visible;
+   display: inline;
+}
+#wb_abonner
+{
+   left: 578px;
+   top: 41px;
+   width: 197px;
+   height: 102px;
+   visibility: visible;
+   display: inline;
+}
+#wb_contacter
+{
+   left: 995px;
+   top: 41px;
+   width: 272px;
+   height: 32px;
+   visibility: visible;
+   display: inline;
+}
+#wb_telephone
+{
+   left: 995px;
+   top: 88px;
+   width: 173px;
+   height: 88px;
+   visibility: visible;
+   display: inline;
+}
+#wb_tweeter
+{
+   left: 1256px;
+   top: 229px;
+   width: 32px;
+   height: 29px;
+   visibility: visible;
+   display: inline;
+}
+#wb_facebook
+{
+   left: 1192px;
+   top: 218px;
+   width: 34px;
+   height: 40px;
+   visibility: visible;
+   display: inline;
+}
+#wb_gmail
+{
+   left: 1231px;
+   top: 233px;
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline;
+}
+#trai
+{
+   left: 0px;
+   top: 221px;
+   width: 1299px;
+   height: 1px;
+   visibility: visible;
+   display: inline;
+}
+#wb_titre2016
+{
+   left: 17px;
+   top: 233px;
+   width: 156px;
+   height: 22px;
+   visibility: visible;
+   display: inline;
+}
+#TextArea1
+{
+   left: 578px;
+   top: 149px;
+   width: 178px;
+   height: 23px;
+   visibility: visible;
+   display: inline;
+}
+#footer
+{
+   left: 0px;
+   top: 2677px;
+   height: 260px;
+   visibility: visible;
+   display: inline;
+}
+#footer
+{
+   width: 259%;
+}
+}

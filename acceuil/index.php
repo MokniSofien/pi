@@ -86,7 +86,7 @@ function Validatepage1(theForm)
 
 <div id="Layer2" >
   <form action="recherche.php" method="POST"> 
-<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:12px;z-index:0;" rows="0" cols="27"></textarea>
+<input class="btn shake-little" name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:17px;z-index:0;" rows="0" cols="27"></textarea>
 <div id="wb_Image2" >
 
   <button name="submit" type="submit" value="valider" style=" background-color: transparent; border: none;">
@@ -171,9 +171,9 @@ function autoResize(id){
 <span style="color:#FFFFFF;font-family:Arial;font-size:27px;">Solution de gestion des Restos Café Lounge</span></div>
 </div>
 </div>
-<form action="abonner.php" method="POST">
+<form action="../lancement" method="POST">
 <textarea name="email" id="TextArea2" rows="0" cols="41" placeholder="E-mail" required="required">   E-mail</textarea>
-<input name="submit" type="submit" id="Button1" name="" value="ESSAYER">
+<input class="btn shake-little" name="submit" type="submit" id="Button1" name="" value="ESSAYER">
 </form>
 </div>
 </div>
@@ -283,25 +283,25 @@ function autoResize(id){
 <div id="wb_Image10">
 <img src="images/cal%20min.png" id="Image10" alt=""></div>
 <div id="wb_Text24">
-<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Demo user</span></div>
+<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Hend</span></div>
 <div id="wb_Text25">
-<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Demo user</span></div>
+<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">12/12/2016</span></div>
 <div id="wb_Text26">
-<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Demo user</span></div>
+<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">12/12/2016</span></div>
 <div id="wb_Image12">
 <img src="images/cal%20min.png" id="Image12" alt=""></div>
 <div id="wb_Image13">
 <img src="images/admin.png" id="Image13" alt=""></div>
 <div id="wb_Text27">
-<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Demo user</span></div>
+<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Hend</span></div>
 <div id="wb_Text28">
-<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Demo user</span></div>
+<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">12/12/2016</span></div>
 <div id="wb_Image14">
 <img src="images/cal%20min.png" id="Image14" alt=""></div>
 <div id="wb_Image15">
 <img src="images/admin.png" id="Image15" alt=""></div>
 <div id="wb_Text29">
-<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Demo user</span></div>
+<span style="color:#4EB1CB;font-family:Arial;font-size:8px;">Amal</span></div>
 </div>
 </div>
 <div id="Layer11" title="page2">
@@ -309,9 +309,9 @@ function autoResize(id){
 <div id="Layer20">
 	<form   action="login.php" method="POST">
 
-<input name="email" type="email" id="TextArea3" rows="0" cols="40" placeholder="  E-mail" required="required">
-<input name="pass"  type="password" id="TextArea4" rows="0" cols="40" placeholder="  Mot de passe" required="required">
-<input name="submit" type="submit" id="Button2"  value="Submit">
+<input  name="email" type="email" id="TextArea3" rows="0" cols="40" placeholder="  E-mail" required="required">
+<input  name="pass"  type="password" id="TextArea4" rows="0" cols="40" placeholder="  Mot de passe" required="required">
+<input class="btn shake-little" name="submit" type="submit" id="Button2"  value="Envoyer">
 </form>
 </div>
 </div>
@@ -324,7 +324,7 @@ function autoResize(id){
 <div id="Layer21_Container">
 <div id="wb_Text30">
 <span style="color:#5B5B5B;font-family:Exo;font-size:20px;">Vous souhaitez une démonstration gratuite ?</span><span style="color:#5B5B5B;font-family:Exo;font-size:17px;"><br></span><span style="color:#5B5B5B;font-family:Exo;font-size:12px;"><br></span><span style="color:#5B5B5B;font-family:Exo;font-size:16px;">On vous montre comment CoffeePark peut facilement s’adapter à votre besoin<br>sans boulverser vos habitudes</span></div>
-<a href="../presentation/"><input type="submit" id="Button3" name="" value="Je veux une démo"></a>
+<a href="../presentation/"><input class="btn shake-little" type="submit" id="Button3" name="" value="Démonstration "></a>
 </div>
 </div>
 </div>
@@ -333,11 +333,14 @@ function autoResize(id){
 <div id="Layer13_Container">
 <div id="wb_Image17">
 <div>
-<span id="rea" style="color:#FFF;font-family:Exo;font-size:21px;">Réalisations</span>
+<span id="rea" style="color:#FFF;font-family:Exo;font-size:21px;"></span>
 </div>
 <img src="images/U.png" id="Image17" alt=""></div>
 </div>
 </div>
+
+<!-- footer!-->
+
 <div id="PageFooter1">
 <div id="PageFooter1_Container">
 <div id="Layer22">
@@ -350,13 +353,13 @@ function autoResize(id){
 
 
 <div id="wb_Text32">
-<span style="color:#707070;font-family:Exo;font-size:13px;">World Park est une compagne digital fut de développer une charte graphique, Cette ligne graphique générale a donc pour vocation de renforcer le logotype. Au-delà de la cohérence générale recherchée, cette charte se veut suffisamment souple pour permettre à la diversité des supports de communication d'exister les uns par rapport aux autres. C'est pourquoi, cette charte graphique s'articule autour de 4 grandes parties.</span></div>
+<span style="color:#707070;font-family:Exo;font-size:11px;">World Park est une compagne digital fut de développer une charte graphique, Cette ligne graphique générale a donc pour vocation de renforcer le logotype. Au-delà de la cohérence générale recherchée, cette charte se veut suffisamment souple pour permettre à la diversité des supports de communication d'exister les uns par rapport aux autres. C'est pourquoi, cette charte graphique s'articule autour de 4 grandes parties.</span></div>
 
 <div id="wb_Text34">
 <span style="color:#707070;font-family:Exo;font-size:20px;">ABONNER VOUS A NOTRE <br> NEWS LETTER</span>
 <form action="abonner.php" method="POST">
-<input name="email" id="TextArea40"type="email" required="required" placeholder="Abonnez-vous">
-<input name="submit"id="TextArea41" id="TextArea41"type="submit" value="S'abonner">
+<input  name="email" id="TextArea40"type="email" required="required" placeholder="Abonnez-vous">
+<input class="btn shake-little"  name="submit"id="TextArea41" id="TextArea41"type="submit" value="S'abonner">
 </form>
 </div>
 
@@ -380,11 +383,19 @@ function autoResize(id){
 
 <hr id="Line1">
 <div id="wb_Image18">
+<<<<<<< ee464623035088a01de31ac3ea4eb11c335e02ea
 <a href ="https://www.facebook.com/Coffee-Park-1013819342041065/?fref=ts&__mref=message_bubble"><img src="images/fb.png" id="Image18" alt=""></a></div>
 <div id="wb_Image44">
 <a href ="https://myaccount.google.com/intro"><img src="images/g+.png" id="Image44" alt=""></a></div>
 <div id="wb_Image45">
 <a href ="https://twitter.com/?lang=fr"><img src="images/twitter.png" id="Image45" alt=""></a></div>
+=======
+<a  href="https://www.facebook.com/Coffee-Park-1013819342041065/"><img src="images/fb.png" id="Image18" alt=""><a/></div>
+<div id="wb_Image44">
+<a  href="https://plus.google.com/u/0/113695750852278247904/posts"><img src="images/g+.png" id="Image44" alt=""><a/></div><
+<div id="wb_Image45">
+<a  href="https://www.tweeter.com"><img src="images/twitter.png" id="Image45" alt=""><a/><
+>>>>>>> last
 </div>
 <script>
 function changeme() {

@@ -716,10 +716,13 @@ body
 #wb_Image15
 {
    position: absolute;
-   left: 57%;
+  
    top: 26%;
-   
-   z-index: 24;
+   left: 67%;
+   width: 25%;
+   height: 9%;
+   z-index: 23;
+}
 }
 #wb_Image4
 {
@@ -801,7 +804,7 @@ body
 #wb_Image5
 {
    position: absolute;
-   left: 65%;
+   left: 67%;
    top: 45%;
    width: 25%;
    height: 8%;
@@ -850,7 +853,7 @@ body
 #wb_Image6
 {
    position: absolute;
-   left: 55%;
+   left: 67%;
    top: 64%;
    width: 25%;
    height: 8%;
@@ -882,15 +885,15 @@ body
    left: 67%;
    top: 83%;
    width: 25%;
-   height: 7%;
+   height: auto;
    z-index: 35;
 }
 #wb_Text11
 {
    position: absolute;
-   left: 295px;
+   left: 255px;
    top: 126px;
-   width: 380px;
+   
    height: 19px;
    z-index: 63;
    text-align: left;

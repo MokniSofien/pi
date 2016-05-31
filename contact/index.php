@@ -8,6 +8,7 @@
 <link href="liste_blog.css" rel="stylesheet">
 <link href="../head.css" rel="stylesheet">
 <link href="../pop.css" rel="stylesheet">
+<link href="../foo.css" rel="stylesheet">
 
 
 <script>
@@ -27,6 +28,7 @@ function ValidateLayer2(theForm)
 </head>
 <?php include('contact.php');?>
 <body>
+<div style="height:100%">
 <!-- header-->
 <div id="fade" class="black_overlay"></div>
 <div id="fadep" class="black_overlayp"></div>
@@ -66,7 +68,7 @@ function ValidateLayer2(theForm)
 
 <div id="Layer2" >
   <form action="recherche.php" method="POST"> 
-<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:12px;z-index:0;" rows="0" cols="27"></textarea>
+<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:17px;z-index:0;" rows="0" cols="27"></textarea>
 <div id="wb_Image2" >
 
   <button name="submit" type="submit" value="valider" style=" background-color: transparent; border: none;">
@@ -143,12 +145,12 @@ function autoResize(id){
 <span style="color:#707070;font-family:Exo;font-size:13px;">4578 marmora road ,val de marne paris 19</span></div>
 <div id="wb_Text21" style="position:absolute;left:417px;top:92px;width:183px;height:16px;z-index:57;text-align:left;">
 <span style="color:#707070;font-family:Exo;font-size:13px;">+ 33 0609 7429 99 </span></div>
-<div id="wb_Image10" style="position:absolute;left:401px;top:94px;width:12px;height:12px;z-index:58;">
-<img src="../images/2xwsuc0swk.jpg" id="Image10" alt=""></div>
-<div id="wb_Image11" style="position:absolute;left:689px;top:95px;width:12px;height:12px;z-index:59;">
-<img src="../images/f308s58yu2.jpg" id="Image11" alt=""></div>
-<div id="wb_Image12" style="position:absolute;left:27px;top:94px;width:13px;height:12px;z-index:60;">
-<img src="../images/8q1xfeitj6.jpg" id="Image12" alt=""></div>
+<div id="wb_Image10" style="position:absolute;left: 388px; top: 86px;;width:60px;height:53px;z-index:58;">
+<img src="../images/contact.png" id="Image10" alt=""></div>
+<div id="wb_Image11" style="position:absolute;left: 680px;top: 90px;width:56px;height:38px;z-index:59;">
+<img src="../images/conct.png" id="Image11" alt=""></div>
+<div id="wb_Image12" style="position:absolute;left:27px;top:87px;    width: 29px; height: 48px;;z-index:60;">
+<img src="../images/1tact.png" id="Image12" alt=""></div>
 </div>
 
 
@@ -163,7 +165,7 @@ function autoResize(id){
 <div id="Layer3_Container" style="width:512px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 
 <div id="wb_Image5" style="position:absolute;left:98px;top:122px;width:116px;height:110px;z-index:30;">
-<img src="../images/big%20admin.png" id="Image5" alt=""></div>
+<img  style="    border-radius: 50%;"src="images/steve.jpg" id="Image5" alt=""></div>
 <div id="wb_Text26" style="position:absolute;left:253px;top:164px;width:100px;height:16px;z-index:31;text-align:left;">
 <span style="color:#4EB0CA;font-family:Exo;font-size:13px;">Steven Hector</span></div>
 
@@ -174,15 +176,15 @@ function autoResize(id){
 <div id="wb_Text15" style="position:absolute;left:151px;top:324px;width:191px;height:16px;z-index:35;text-align:left;">
 <span style="color:#707070;font-family:Exo;font-size:13px;">7 jours de 9:00 am à 7:00 pm</span></div>
 <div id="wb_Text16" style="position:absolute;left:151px;top:258px;width:266px;height:16px;z-index:36;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
+<span style="color:#707070;font-family:Exo;font-size:13px;">4578 marmora road ,val de marne paris 19</span></div>
 <div id="wb_Text18" style="position:absolute;left:151px;top:356px;width:122px;height:16px;z-index:37;text-align:left;">
 <span style="color:#4eb1cb;font-family:Exo;font-size:13px;">CoffeePark@gmail.com</span></div>
 <div id="wb_Image6" style="position:absolute;left:127px;top:260px;width:12px;height:12px;z-index:38;">
 <img src="../images/p96jql65ow.jpg" id="Image6" alt=""></div>
-<div id="wb_Image7" style="position:absolute;left:127px;top:293px;width:12px;height:12px;z-index:39;">
-<img src="../images/2xwsuc0swk.jpg" id="Image7" alt=""></div>
-<div id="wb_Image8" style="position:absolute;left:127px;top:326px;width:12px;height:12px;z-index:40;">
-<img src="../images/f308s58yu2.jpg" id="Image8" alt=""></div>
+<div id="wb_Image7" style="position:absolute;left: 114px; top: 286px;width:60px;height:53px;z-index:39;">
+<img src="../images/contact.png" id="Image7" alt=""></div>
+<div id="wb_Image8" style="position:absolute;left: 118px;top: 323px;width:56px;height:38px;z-index:40;">
+<img src="../images/conct.png" id="Image8" alt=""></div>
 <div id="wb_Image9" style="position:absolute;left:127px;top:360px;width:12px;height:12px;z-index:41;">
 <img src="../images/4xnjbi2yek.jpg" id="Image9" alt=""></div>
 </div>
@@ -197,28 +199,47 @@ function autoResize(id){
 <input name="email" id="TextArea2" type="email"style="position:absolute;left:194px;top:163px;width:352px;height:27px;z-index:44;" rows="0" cols="56" placeholder="Email :"required="required">
 <input name="phone" id="TextArea3" type="number"style="position:absolute;left:194px;top:204px;width:352px;height:27px;z-index:45;" rows="0" cols="56" placeholder="Tel :"required="required">
 <textarea name="message" id="TextArea4" type="text"style="position:absolute;left:194px;top:246px;width:352px;height:75px;z-index:46;" rows="3" cols="56" placeholder="Message :"required="required"></textarea>
-<input type="submit" id="Button1" name="envoi" value="Envoyer" style="position:absolute;left:194px;top:356px;width:177px;height:38px;z-index:47;">
+<input class="btn shake-little"  type="submit" id="Button1" name="envoi" value="Envoyer" style="position:absolute;left:194px;top:356px;width:177px;height:38px;z-index:47;">
 
 </form>
 </div>
 </div>
-<div id="PageFooter1" style="position:absolute;overflow:hidden;text-align:center;left:0px;top:1034px;width:100%;height:182px;z-index:64;">
-<div id="PageFooter1_Container" style="width:1091px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="Layer5" style="position:absolute;text-align:left;left:339px;top:21px;width:413px;height:146px;z-index:54;">
-<div id="wb_Text9" style="position:absolute;left:148px;top:127px;width:126px;height:16px;z-index:48;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark 2015. </span></div>
-<div id="wb_Text8" style="position:absolute;left:116px;top:69px;width:191px;height:16px;z-index:49;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
-<div id="wb_Text10" style="position:absolute;left:116px;top:95px;width:183px;height:16px;z-index:50;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">+ 33 0609 7429 99</span></div>
-<div id="wb_Text6" style="position:absolute;left:105px;top:0px;width:204px;height:23px;z-index:51;text-align:left;">
-<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
-<div id="wb_Text7" style="position:absolute;left:78px;top:43px;width:266px;height:16px;z-index:52;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
-<div id="wb_Image4" style="position:absolute;left:99px;top:95px;width:17px;height:16px;z-index:53;">
-<img src="../images/phone.png" id="Image4" alt=""></div>
+
+
+
+<div style="top:1000px;" id="footer">
+
+<div id="wb_titre">
+<span style="color:#707070;font-family:Exo;font-size:20px;">COFEE <b>PARK</b></span><span style="color:#000000;font-family:Exo;font-size:27px;"> </span><span style="color:#202020;font-family:Exo;font-size:24px;"><strong>PARK</strong></span></div>
+<div id="wb_presentation">
+<span style="color:#A4A4A4;font-family:Exo;font-size:13px;">World Park est une compagne digital fut de développer une charte graphique, Cette ligne graphique générale a donc pour vocation de renforcer le logotype. Au-delà de la cohérence générale recherchée, cette charte se veut suffisamment souple pour permettre à la diversité des supports de communication d'exister les uns par rapport aux autres. C'est pourquoi, cette charte graphique s'articule autour de 4 grandes parties.</span></div>
+<div id="wb_abonner">
+<span style="color:#707070;font-family:Exo;font-size:20px;">ABONNER-VOUS A <b> NOTRE </br> NEWS LETTER</span></div>
+<div id="wb_contacter">
+<span style="color:#707070;font-family:Exo;font-size:20px;"><b>CONTACTER</b>-NOUS</span></div>
+<div id="wb_telephone">
+<span style="color:#707070;font-family:Exo;font-size:13px;"> TEL : 71 531 745 <br> Adresse : Le Bardoo</span></div>
+<div id="wb_tweeter">
+<a href="http://tweeter.com"><img src="images/twitter.png" id="tweeter" alt=""></a></div>
+<div id="wb_gmail">
+<a href="https://plus.google.com/u/0/113695750852278247904/posts"><img src="images/g%2B.png" id="gmail" alt=""></a></div>
+<iframe id="mee" src="../menuf/"></iframe>
+<div id="wb_facebook">
+<a href="https://www.facebook.com/Coffee-Park-1013819342041065/"><img src="images/fb.png" id="facebook" alt=""></a></div>
+<hr id="trai">
+<div id="wb_titre2016">
+<span style="color:#A4A4A4;font-family:Exo;font-size:17px;">coffeePark &#0169; 2016.</span></div>
+<form action="abonner.php" method="POST">
+<textarea name="TextArea1" id="TextArea1" rows="0" cols="26"></textarea>
+<input class="btn shake-little"  type="submit" id="Button1" name="" value="S'abonner">
+</form>
 </div>
+
+
+
+
+
 </div>
-</div>
+
 </body>
 </html>

@@ -168,7 +168,7 @@ function ValidateLayer2(theForm)
 <input name="email" id="TextArea2" style="position:absolute;left:194px;top:163px;width:352px;height:27px;z-index:44;" rows="0" cols="56" placeholder="Email :">
 <input name="phone" id="TextArea3" style="position:absolute;left:194px;top:204px;width:352px;height:27px;z-index:45;" rows="0" cols="56" placeholder="Phone :">
 <textarea name="message" id="TextArea4" style="position:absolute;left:194px;top:246px;width:352px;height:75px;z-index:46;" rows="3" cols="56" placeholder="Message :"></textarea>
-<input type="submit" id="Button1" name="envoi" value="Envoyer" style="position:absolute;left:194px;top:356px;width:177px;height:38px;z-index:47;">
+<input class="btn shake-little"  type="submit" id="Button1" name="envoi" value="Envoyer" style="position:absolute;left:194px;top:356px;width:177px;height:38px;z-index:47;">
 
 </form>
 </div>

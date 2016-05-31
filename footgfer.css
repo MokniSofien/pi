@@ -1,0 +1,124 @@
+#Layer22
+{
+   background-color: transparent;
+}
+#wb_Text31 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   position: absolute;
+    left: 18px;
+    top: 250px;
+    width: 126px;
+    height: 16px;
+    z-index: 127;
+    text-align: left;
+}
+#wb_Text31 div
+{
+   text-align: left;
+}
+#wb_Text32
+{
+   position: absolute;
+   right: 400px;
+   top: 40px;
+   width: 400px;
+   height: 16px;
+   z-index: 128;
+   text-align: left;
+}
+#wb_Text34
+{
+   position: absolute;
+   left: 105px;
+   top: 0px;
+   width: 204px;
+   height: 23px;
+   z-index: 130;
+   text-align: left;
+}
+#wb_Text40
+{position:relative;
+   right: 45px;
+   top: 45px;
+   width: 191px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   text-align:left;
+    background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   
+}
+#wb_Text35
+{
+   position: absolute;
+   left: 880px;
+   top: 43px;
+   width: 266px;
+   height: 16px;
+   z-index: 131;
+
+}
+#wb_Text42
+{
+   position: absolute;
+   left: 886px;
+   top: 110px;
+   width: 266px;
+   height: 16px;
+   z-index: 131;
+
+}
+#wb_Text33
+{
+    position: absolute;
+    left: 800px;
+    top: 95px;
+    width: 183px;
+    height: 16px;
+    z-index: 129;
+}
+#Line1
+{
+   position: absolute;
+   margin:auto;
+   
+   top:230px;
+   width: 100%;
+   height: 2px;
+   z-index: 31;
+}
+#wb_Image18
+{
+    position: absolute;
+    left: 1240px;
+    top: 235px;
+    width: 35px;
+    height: 40px;
+    z-index: 132;
+}
+#wb_Image45
+{
+ position: absolute;
+    left: 1200px;
+    top: 240px;
+    width: 30px;
+    height: 30px;
+    z-index: 132;
+}
+#wb_Image44
+{
+    position: absolute;
+    left: 1290px;
+    top: 245px;
+    width: 30px;
+    height: 30px;
+    z-index: 132;
+}

@@ -1,13 +1,15 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
+
+<content="text/html; charset=utf8" />
 <title>Untitled Page</title>
   
 <link href="fronte.css" rel="stylesheet">
 <link href="liste_blog.css" rel="stylesheet">
 <link href="../head.css" rel="stylesheet">
 <link href="../pop.css" rel="stylesheet">
+<link href="../foo.css" rel="stylesheet">
 <script>
 <!-- condition input --> 
 function ValidateLayer2(theForm)
@@ -68,7 +70,7 @@ function ValidateLayer2(theForm)
 
 <div id="Layer2" >
   <form action="recherche.php" method="POST"> 
-<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:12px;z-index:0;" rows="0" cols="27"></textarea>
+<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:17px;z-index:0;" rows="0" cols="27"></textarea>
 <div id="wb_Image2" >
 
   <button name="submit" type="submit" value="valider" style=" background-color: transparent; border: none;">
@@ -185,22 +187,34 @@ while($ligne=mysqli_fetch_array($result))
 
 
 <!--footer-->
-<div id="PageFooter1" >
-<div id="PageFooter1_Container" style="width:1091px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="Layer5" style="position:absolute;text-align:left;left:339px;top:21px;width:413px;height:146px;z-index:50;">
-<div id="wb_Text9" style="position:absolute;left:148px;top:127px;width:126px;height:16px;z-index:44;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
-<div id="wb_Text8" style="position:absolute;left:116px;top:69px;width:191px;height:16px;z-index:45;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
-<div id="wb_Text10" style="position:absolute;left:116px;top:95px;width:183px;height:16px;z-index:46;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
-<div id="wb_Text6" style="position:absolute;left:105px;top:0px;width:204px;height:23px;z-index:47;text-align:left;">
-<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
-<div id="wb_Text7" style="position:absolute;left:78px;top:43px;width:266px;height:16px;z-index:48;text-align:left;">
-<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
-<div id="wb_Image4" style="position:absolute;left:99px;top:95px;width:17px;height:16px;z-index:49;">
-<img src="../images/phone.png" id="Image4" alt=""></div>
-</div>
+<div id="footer"style="
+    top: 1550px;
+">
+
+<div id="wb_titre">
+<span style="color:#707070;font-family:Exo;font-size:20px;">COFEE <b>PARK</b></span><span style="color:#000000;font-family:Exo;font-size:27px;"> </span><span style="color:#202020;font-family:Exo;font-size:24px;"><strong>PARK</strong></span></div>
+<div id="wb_presentation">
+<span style="color:#A4A4A4;font-family:Exo;font-size:13px;">World Park est une compagne digital fut de développer une charte graphique, Cette ligne graphique générale a donc pour vocation de renforcer le logotype. Au-delà de la cohérence générale recherchée, cette charte se veut suffisamment souple pour permettre à la diversité des supports de communication d'exister les uns par rapport aux autres. C'est pourquoi, cette charte graphique s'articule autour de 4 grandes parties.</span></div>
+<div id="wb_abonner">
+<span style="color:#707070;font-family:Exo;font-size:20px;">ABONNER-VOUS A <b> NOTRE </br> NEWS LETTER</span></div>
+<div id="wb_contacter">
+<span style="color:#707070;font-family:Exo;font-size:20px;"><b>CONTACTER</b>-NOUS</span></div>
+<div id="wb_telephone">
+<span style="color:#707070;font-family:Exo;font-size:13px;"> TEL : 71 531 745 <br> Adresse : Le Bardoo</span></div>
+<div id="wb_tweeter">
+<a href="http://tweeter.com"><img src="images/twitter.png" id="tweeter" alt=""></a></div>
+<div id="wb_gmail">
+<a href="https://plus.google.com/u/0/113695750852278247904/posts"><img src="images/g%2B.png" id="gmail" alt=""></a></div>
+<iframe id="mee" src="../menuf/"></iframe>
+<div id="wb_facebook">
+<a href="https://www.facebook.com/Coffee-Park-1013819342041065/"><img src="images/fb.png" id="facebook" alt=""></a></div>
+<hr id="trai">
+<div id="wb_titre2016">
+<span style="color:#A4A4A4;font-family:Exo;font-size:17px;">coffeePark &#0169; 2016.</span></div>
+<form action="abonner.php" method="POST">
+<textarea name="TextArea1" id="TextArea1" rows="0" cols="26"></textarea>
+<input class="btn shake-little"  type="submit" id="Button1" name="" value="S'abonnert">
+</form>
 </div>
 </div>
 

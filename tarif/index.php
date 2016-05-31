@@ -9,6 +9,7 @@
 <link href="page6.css" rel="stylesheet">
 <link href="../head.css" rel="stylesheet">
 <link href="../pop.css" rel="stylesheet">
+<link href="../foo.css" rel="stylesheet">
 <script>
 function ValidateLayer2(theForm)
 {
@@ -28,7 +29,7 @@ function ValidateLayer2(theForm)
 <body>
 <div id="container">
 <div id="wb_Text19">
-<span style="color:#000000;font-family:Exo;font-size:15px;"><strong>Des offres adaptées à tous les besoins</strong></span></div>
+<span style="color:#4BB1CB;font-family:Exo;font-size:22px;"><strong>Des offres adaptées à tous les besoins</strong></span></div>
 <div id="Layer7">
 <div id="wb_Image6">
 <img src="../images/lam.png" id="Image6" alt=""></div>
@@ -101,7 +102,7 @@ function ValidateLayer2(theForm)
 <!-- header-->
 
 <!-- header-->
-<input name="submit" type="submit" value="Démarrer votre essai gratuit aujourd'hui!" class="btn">
+<a href="../lancement"><input name="submit" type="submit" value="Démarrer votre essai gratuit aujourd'hui!" class="btn"></a>
 
 <div id="fade" class="black_overlay"></div>
 <div id="fadep" class="black_overlayp"></div>
@@ -141,7 +142,7 @@ function ValidateLayer2(theForm)
 
 <div id="Layer2" >
   <form action="recherche.php" method="POST"> 
-<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:12px;z-index:0;" rows="0" cols="27"></textarea>
+<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:17px;z-index:0;" rows="0" cols="27"></textarea>
 <div id="wb_Image2" >
 
   <button name="submit" type="submit" value="valider" style=" background-color: transparent; border: none;">
@@ -222,7 +223,7 @@ function autoResize(id){
 <div id="Layer4">
 <div id="wb_Text15">
 <span style="color:#000000;font-family:Exo;font-size:19px;">50 $</span></div>
-<a href="../panier_connexion/page8.html"><input type="submit" id="Button1" name="Commander" value="ajouter au panier"></a>
+<a  href = "javascript:void(0)" onclick = "document.getElementById('lightp').style.display='block';document.getElementById('fadep').style.display='block';changeFramee('../panier_connexion/page8.html');"><input  type="submit"  id="Button2" name="Commander" value="ajouter au panier"></a>
 <div id="wb_Text16">
 <span style="color:#000000;font-family:Exo;font-size:19px;">Version Basic</span></div>
 <div id="wb_Text17">
@@ -238,7 +239,7 @@ function autoResize(id){
 <div id="Layer5">
 <div id="wb_Text6">
 <span style="color:#000000;font-family:Exo;font-size:19px;"> 70 $</span></div>
-<a href="../panier_connexion/page8.html"><input type="submit" id="Button1" name="Commander" value="ajouter au panier"></a>
+<a  href = "javascript:void(0)" onclick = "document.getElementById('lightp').style.display='block';document.getElementById('fadep').style.display='block';changeFramee('../panier_connexion/page8.html');"><input   type="submit"  id="Button2" name="Commander" value="ajouter au panier"></a>
 <div id="wb_Text7">
 <span style="color:#000000;font-family:Exo;font-size:19px;">Version Business</span></div>
 <div id="wb_Text8">
@@ -253,7 +254,7 @@ function autoResize(id){
 <div id="Layer6">
 <div id="wb_Text10">
 <span style="color:#000000;font-family:Exo;font-size:19px;">105$</span></div>
-<a href="../panier_connexion/page8.html"><input type="submit" id="Button2" name="Commander" value="ajouter au panier"></a>
+<a  href = "javascript:void(0)" onclick = "document.getElementById('lightp').style.display='block';document.getElementById('fadep').style.display='block';changeFramee('../panier_connexion/page8.html');"><input  type="submit"  id="Button2" name="Commander" value="ajouter au panier"></a>
 <div id="wb_Text11">
 <span style="color:#000000;font-family:Exo;font-size:19px;">Version Enterprise</span></div>
 <div id="wb_Text12">
@@ -269,21 +270,34 @@ function autoResize(id){
 
 </div>
 </div>
-<div id="PageFooter1">
-<div id="PageFooter1_Container">
-<div id="Layer11">
-<div id="wb_Text22">
-<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
-<div id="wb_Text23">
-<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
-<div id="wb_Text24">
-<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
-<div id="wb_Text25">
-<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
-<div id="wb_Text26">
-<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
-<div id="wb_Image10">
-<img src="../images/phone.png" id="Image10" alt=""></div>
+<div id="footer"style="
+    top: 2200px;
+">
+
+<div id="wb_titre">
+<span style="color:#707070;font-family:Exo;font-size:20px;">COFEE <b>PARK</b></span><span style="color:#000000;font-family:Exo;font-size:27px;"> </span><span style="color:#202020;font-family:Exo;font-size:24px;"><strong>PARK</strong></span></div>
+<div id="wb_presentation">
+<span style="color:#A4A4A4;font-family:Exo;font-size:13px;">World Park est une compagne digital fut de développer une charte graphique, Cette ligne graphique générale a donc pour vocation de renforcer le logotype. Au-delà de la cohérence générale recherchée, cette charte se veut suffisamment souple pour permettre à la diversité des supports de communication d'exister les uns par rapport aux autres. C'est pourquoi, cette charte graphique s'articule autour de 4 grandes parties.</span></div>
+<div id="wb_abonner">
+<span style="color:#707070;font-family:Exo;font-size:20px;">ABONNER-VOUS A <b> NOTRE </br> NEWS LETTER</span></div>
+<div id="wb_contacter">
+<span style="color:#707070;font-family:Exo;font-size:20px;"><b>CONTACTER</b>-NOUS</span></div>
+<div id="wb_telephone">
+<span style="color:#707070;font-family:Exo;font-size:13px;"> TEL : 71 531 745 <br> Adresse : Le Bardoo</span></div>
+<div id="wb_tweeter">
+<a href="http://tweeter.com"><img src="images/twitter.png" id="tweeter" alt=""></a></div>
+<div id="wb_gmail">
+<a href="https://plus.google.com/u/0/113695750852278247904/posts"><img src="images/g%2B.png" id="gmail" alt=""></a></div>
+<iframe id="mee" src="../menuf/"></iframe>
+<div id="wb_facebook">
+<a href="https://www.facebook.com/Coffee-Park-1013819342041065/"><img src="images/fb.png" id="facebook" alt=""></a></div>
+<hr id="trai">
+<div id="wb_titre2016">
+<span style="color:#A4A4A4;font-family:Exo;font-size:17px;">coffeePark &#0169; 2016.</span></div>
+<form action="abonner.php" method="POST">
+<textarea name="TextArea1" id="TextArea1" rows="0" cols="26"></textarea>
+<input   type="submit" id="Button2" name="" value="S'abonner">
+</form>
 </div>
 </div>
 </div>

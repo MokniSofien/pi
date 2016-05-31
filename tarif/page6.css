@@ -689,9 +689,9 @@ left:400px;
 #wb_Text19
 {
    position: absolute;
-   left: 403px;
+   left: 350px;
    top: 96px;
-   width: 285px;
+ color:#4BB1CB
    height: 18px;
    z-index: 94;
    text-align: left;
@@ -779,7 +779,7 @@ left:400px;
    left: 3%;
    top: 1312px;
    width: 1012px;
-   height: 740px;
+   height: auto;
    z-index: 98;
 }
 #Layer11

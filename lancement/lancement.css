@@ -1,5 +1,6 @@
 div#container
 {
+	zoom: 80%;
    width: 864px;
    position: relative;
    margin: 0 auto 0 auto;
@@ -7,6 +8,7 @@ div#container
 }
 body
 {
+	zoom:80%;
    background-color: #FFFFFF;
    background-image: url(none);
    background-position: left top;

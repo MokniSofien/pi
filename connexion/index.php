@@ -41,10 +41,10 @@ else { }
 <form   action="index.php" method="POST">
 <input name="email" id="TextArea1"type="email" style="position:absolute;left:54px;top:62px;width:188px;height:33px;z-index:3;" rows="0" cols="24" placeholder="  Nom utilisateur* " required="required">
 <input name="pass" id="TextArea2" type="password" style="position:absolute;left:54px;top:113px;width:188px;height:33px;z-index:6;" rows="0" cols="24" placeholder="  Mot de passe*"required="required">
-<input type="submit" id="Button2" name="inscrit" value="inscrit" style="position:absolute;left:130px;top:183px;width:70px;height:36px;z-index:0;">
-<input type="submit" name="submit" id="Button1" name="" value="Valider" style="position:absolute;left:54px;top:183px;width:70px;height:36px;z-index:4;">
-</form>
 
+<input class="btn shake-little"  type="submit" name="submit" id="Button1" name="" value="Valider" style="position:absolute;left:54px;top:183px;width:70px;height:36px;z-index:4;">
+</form>
+<a href="../inscrit/"><input  id="Button1" name="inscrit" value="inscription" style="position:absolute;left:130px;top:183px;width:70px;height:36px;z-index:0;"></a>
 
 
 <div id="wb_Image1" style="position:absolute;left:60px;top:69px;width:18px;height:20px;z-index:7;">

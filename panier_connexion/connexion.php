@@ -6,10 +6,10 @@ $password="";
 
 if(isset($_POST['submit']))
 {
-	if(isset($_POST['radio']))
+	if(isset($_POST['RadioButton1']))
 	{
 		
-		header ('location:../inscrit/page1.php');
+		header ('location:../inscrit/');
 
 	}
 	else{
@@ -41,7 +41,7 @@ if (isset($_POST['email']) && isset($_POST['pass'])) {
 		$_SESSION['connecte']="ok!!";
 		$_SESSION['id']=$id;
 		// on redirige notre visiteur vers une page de notre section membre
-				header ('location:../panier/panier.php?id="'.$id.'"');
+				header ('location:../panier/panier.php);
 
 	}
 		

@@ -53,7 +53,7 @@ $result=mysqli_query($cxn,$requete);
  <label  style="position:absolute;right:130px;top:255px;width:256px;height:31px;z-index:6;"><b>Email:</b> </label><input name="email"type="email"  style="position:absolute;left:55px;top:250px;width:256px;height:31px;z-index:10;" rows="0" cols="29"value="<?php echo $ligne['email'];?>"required="required"/>
  <label  style="position:absolute;right:130px;top:305px;width:256px;height:31px;z-index:6;"><b> Image:</b> </label><input name="Image" type="File"  style="position:absolute;left:55px;top:305px;width:256px;height:31px;z-index:10;" rows="0" cols="29"value="<?php echo $ligne['email'];?>"required="required"/>
 <input type="reset" id="Button2" name="Quiter" value="Quiter" style="position:absolute;left:202px;top:340px;width:111px;height:25px;z-index:11;">
-<input type="submit" id="Button1" name="Valider" value="Valider" style="position:absolute;left:55px;top:340px;width:106px;height:25px;z-index:12;">
+<input class="btn shake-little"  type="submit" id="Button1" name="Valider" value="Valider" style="position:absolute;left:55px;top:340px;width:106px;height:25px;z-index:12;">
 </form>
 </div>
 <div id="Layer3" style="position:absolute;text-align:left;left:107px;top:0px;width:710px;height:74px;z-index:19;">

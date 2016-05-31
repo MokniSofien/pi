@@ -199,7 +199,7 @@ while($ligne=mysqli_fetch_array($response)){
 
 		<div id="Layer2" >
 	<form action="recherche.php" method="POST"> 
-<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:12px;z-index:0;" rows="0" cols="27">
+<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:17px;z-index:0;" rows="0" cols="27">
 <div id="wb_Image2" >
 
 	<button name="submit" type="submit" value="valider" style=" background-color: transparent; border: none;">

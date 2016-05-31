@@ -14,7 +14,8 @@ $db = mysqli_connect('localhost','root','')  or die('Erreur de connexion '.mysql
      
     mysqli_query($db,$sql) or die('Erreur SQL !'.$sql.'<br>'.mysqli_error($db)); 
 
-     header('location:/travail/site/list_blog/');
+     echo '<script type="text/javascript">alert("Merci pour votre confiance")</script>' ;
+	 
 
     mysqli_close($db);  
     } 

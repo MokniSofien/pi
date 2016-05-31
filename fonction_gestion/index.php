@@ -8,6 +8,7 @@
 <link href="page12.css" rel="stylesheet">
 <link href="../head.css" rel="stylesheet">
 <link href="../pop.css" rel="stylesheet">
+<link href="../foo.css" rel="stylesheet">
 <script>
 function ValidateLayer2(theForm)
 {
@@ -27,7 +28,7 @@ function ValidateLayer2(theForm)
 <div style="hieght:100%">
 <div id="container">
 <div id="wb_Text11">
-<span style="color:#4BB1CB;font-family:Exo;font-size:17px;"><strong>CoffeePark vous offre une solution de gestion pour vos cafés </strong></span></div>
+<span style="color:#4BB1CB;font-family:Exo;font-size:22px;"><strong>CoffeePark vous offre une solution de gestion pour vos cafés </strong></span></div>
 <div id="Layer3">
 <div id="Layer3_Container">
 <a onclick="change1()" >
@@ -154,7 +155,7 @@ function ValidateLayer2(theForm)
 
 <div id="Layer2" >
   <form action="recherche.php" method="POST"> 
-<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:12px;z-index:0;" rows="0" cols="27"></textarea>
+<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:17px;z-index:0;" rows="0" cols="27"></textarea>
 <div id="wb_Image2" >
 
   <button name="submit" type="submit" value="valider" style=" background-color: transparent; border: none;">
@@ -224,22 +225,36 @@ function autoResize(id){
 </div>
 </div>
 <!--end header-->
-<div id="PageFooter1">
-<div id="PageFooter1_Container">
-<div id="Layer5">
-<div id="wb_Text9">
-<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
-<div id="wb_Text8">
-<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
-<div id="wb_Text10">
-<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
-<div id="wb_Text6">
-<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
-<div id="wb_Text7">
-<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
-<div id="wb_Image4">
-<img src="../images/phone.png" id="Image4" alt=""></div>
-</div>
+<div id="footer"  
+   style=" margin-top: 200px;
+    position: relative;
+    top: auto;
+    bottom: 0 !important;">
+
+<div id="wb_titre">
+<span style="color:#707070;font-family:Exo;font-size:20px;">COFEE <b>PARK</b></span><span style="color:#000000;font-family:Exo;font-size:27px;"> </span><span style="color:#202020;font-family:Exo;font-size:24px;"><strong>PARK</strong></span></div>
+<div id="wb_presentation">
+<span style="color:#A4A4A4;font-family:Exo;font-size:13px;">World Park est une compagne digital fut de développer une charte graphique, Cette ligne graphique générale a donc pour vocation de renforcer le logotype. Au-delà de la cohérence générale recherchée, cette charte se veut suffisamment souple pour permettre à la diversité des supports de communication d'exister les uns par rapport aux autres. C'est pourquoi, cette charte graphique s'articule autour de 4 grandes parties.</span></div>
+<div id="wb_abonner">
+<span style="color:#707070;font-family:Exo;font-size:20px;">ABONNER-VOUS A <b> NOTRE </br> NEWS LETTER</span></div>
+<div id="wb_contacter">
+<span style="color:#707070;font-family:Exo;font-size:20px;"><b>CONTACTER</b>-NOUS</span></div>
+<div id="wb_telephone">
+<span style="color:#707070;font-family:Exo;font-size:13px;"> TEL : 71 531 745 <br> Adresse : Le Bardoo</span></div>
+<div id="wb_tweeter">
+<a href="http://tweeter.com"><img src="images/twitter.png" id="tweeter" alt=""></a></div>
+<div id="wb_gmail">
+<a href="https://plus.google.com/u/0/113695750852278247904/posts"><img src="images/g%2B.png" id="gmail" alt=""></a></div>
+<iframe id="mee" src="../menuf/"></iframe>
+<div id="wb_facebook">
+<a href="https://www.facebook.com/Coffee-Park-1013819342041065/"><img src="images/fb.png" id="facebook" alt=""></a></div>
+<hr id="trai">
+<div id="wb_titre2016">
+<span style="color:#A4A4A4;font-family:Exo;font-size:17px;">coffeePark &#0169; 2016.</span></div>
+<form action="abonner.php" method="POST">
+<textarea name="TextArea1" id="TextArea1" rows="0" cols="26"></textarea>
+<input class="btn shake-little"  type="submit" id="Button1" name="" value="S'abonner">
+</form>
 </div>
 </div>
 <script>
@@ -279,7 +294,7 @@ function change1()
 	 var taille = document.getElementById('Layer7');
 	 taille.style.overflow = 'hidden' ;
     if (taille.style.height=="50px") {
-	taille.style.height = '500px' ;
+	taille.style.height = '330px' ;
 		
         
     } else {

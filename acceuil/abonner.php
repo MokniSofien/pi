@@ -14,7 +14,7 @@ $db = mysqli_connect('localhost','root','')  or die('Erreur de connexion '.mysql
      
     mysqli_query($db,$sql) or die('Erreur SQL !'.$sql.'<br>'.mysqli_error($db)); 
 
-     header('location:/travail/pi/list_blog/');
+     header('location:../');
 
     mysqli_close($db);  
     } 

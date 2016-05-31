@@ -9,6 +9,7 @@
 <link href="page13.css" rel="stylesheet">
 <link href="../head.css" rel="stylesheet">
 <link href="../pop.css" rel="stylesheet">
+<link href="../foo.css" rel="stylesheet">
 <script>
 function ValidateLayer2(theForm)
 {
@@ -28,7 +29,7 @@ function ValidateLayer2(theForm)
 <body>
 <div id="container">
 <div id="wb_Text11">
-<span style="color:#00BFFF;font-family:Exo;font-size:17px;"><strong>Analyses et rapports adapter à a vos besoins</strong></span></div>
+<span style="color:#00BFFF;font-family:Exo;font-size:22px;"><strong>Analyses et rapports adapter à a vos besoins</strong></span></div>
 <div id="Layer3">
   <div class="ligne_verticale" ></div>
    <div id="wb_Image14">
@@ -53,11 +54,15 @@ function ValidateLayer2(theForm)
    <div id="wb_Text12">
       <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>5</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Analyses</strong></span></div>
 
-   <div id="wb_Text14">
+   <div style="
+    text-align: justify;
+"id="wb_Text14">
       <span style="color:#000000;font-family:Exo;font-size:13px;">L’analyse et les statistiques de tous vos départements se trouvent ici dans le sous-onglet analyses de l’onglet Rapports. Vous pourrez y consulter l’état de votre/vos sociétés à l’aide des statistiques s’y trouvant vous pourrez prendre les décisions les plus importantes sur des faits qui se trouvent sous vos yeux.</span></div>
    <div id="wb_Image7">
       <img src="../images/1.png" id="Image7" alt=""></div>
-   <div id="wb_Text17">
+   <div style="
+    text-align: justify;
+"id="wb_Text17">
       <span style="color:#000000;font-family:Exo;font-size:13px;">Vous trouverez sous cet onglet la liste des rapports de vos ventes : les ventes les plus importantes, les statistiques de ventes…
 Avec ses derniers ajouts, CoffeePark se positionne pour devenir l’une des meilleures solutions de gestion de projets collaborative offrant toutes les caractéristiques dont les entreprises de tous types et tailles ont besoin pour assurer le contrôle et la gestion efficace des ventes.</span></div>
 
@@ -66,19 +71,27 @@ Avec ses derniers ajouts, CoffeePark se positionne pour devenir l’une des meil
    <div id="wb_Text18">
       <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>3</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Dépenses </strong></span></div>
 
-   <div id="wb_Text20">
+   <div style="
+    text-align: justify;
+"id="wb_Text20">
       <span style="color:#000000;font-family:Exo;font-size:13px;">Sous  cet onglet vous trouverez, la liste des rapports de vos dépenses : les dépenses les plus importantes, les types de dépenses, les variations de dépenses au cours du temps…
 Vous retrouverez aussi  toutes les données qui les définissent, Code, Fournisseur, Date due, Statut … mais aussi vous permet de modifier supprimer et aussi d’ajouter de nouvelles dépenses.</span></div>
    <div id="wb_Text21">
       <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>4</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Projets</strong></span></div>
 
-   <div id="wb_Text23">
+   <div style="
+    text-align: justify;
+"id="wb_Text23">
       <span style="color:#000000;font-family:Exo;font-size:13px;">Ici vous trouvez les rapports concernant vos projets : l’état d’avancement, les participants, les statistiques d’activités des employés concernés par le projet en question…
 Un outil simple et flexible comme CoffeePark sera également un excellent support dans la mise en place de votre système de gestion du projet.</span></div>
-   <div id="wb_Text26">
+   <div style="
+    text-align: justify;
+"id="wb_Text26">
       <span style="color:#000000;font-family:Exo;font-size:13px;">Vous y trouverez la liste de vos rapports des plus récents aux plus anciens, des plus importants aux moins important…
 Votre système de gestion  n’a pas à être compliqué. Au contraire ! Plus il sera simple, plus vous aurez des chances de l’utiliser et de bénéficier de ses avantages en termes d’amélioration de l’efficacité et de la productivité.</span></div>
-   <div id="wb_Text24">
+   <div style="
+    text-align: justify;
+"id="wb_Text24">
       <span style="color:#00BFFF;font-family:Exo;font-size:19px;"><strong>1</strong></span><span style="color:#000000;font-family:Exo;font-size:19px;"><strong> </strong></span><span style="color:#2F4F4F;font-family:Exo;font-size:19px;"><strong>Listes</strong></span></div>
 
 </div>
@@ -126,7 +139,7 @@ Votre système de gestion  n’a pas à être compliqué. Au contraire ! Plus il
 
 <div id="Layer2" >
   <form action="recherche.php" method="POST"> 
-<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:12px;z-index:0;" rows="0" cols="27"></textarea>
+<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:17px;z-index:0;" rows="0" cols="27"></textarea>
 <div id="wb_Image2" >
 
   <button name="submit" type="submit" value="valider" style=" background-color: transparent; border: none;">
@@ -195,32 +208,49 @@ function autoResize(id){
 </div>
 </div>
 </div>
+<?php
+  include ('abonner.php') ;
+?>
 <!--end header-->
 <div id="Layer4">
 <div id="wb_Text32">
  <span style="color:#FFFFFF;font-family:Exo;font-size:16px;">S'INSCRIRE AU NEWSLETTER</span></div>
-  <form action="abonner.php" method="POST">
+  <form action="index.php" method="POST">
    <input name="email" id="TextArea2" type="Email" rows="0" cols="56" placeholder="Email *" required="required">
-     <button name="submit" type="submit" id="Button1" style=" overflow: hidden; outline: none;" ><img src="../images/news.png" ></button>
+     <button style="position: relative;border: none;background: transparent;overflow: hidden;outline: none;left: 77%;top: 60px;z-index:6666;" name="submit" type="submit" id="" style=" overflow: hidden; outline: none;" ><img src="../images/news.png" ></button>
 
   </form>
 </div>
-<div id="PageFooter1">
-<div id="PageFooter1_Container">
-<div id="Layer5">
-<div id="wb_Text9">
-<span style="color:#707070;font-family:Exo;font-size:13px;">cofeepark &#0169; 2015. </span></div>
-<div id="wb_Text8">
-<span style="color:#707070;font-family:Exo;font-size:13px;">Mon-Sat 8:00 am to 8:00 pm</span></div>
-<div id="wb_Text10">
-<span style="color:#707070;font-family:Exo;font-size:13px;"> 800-2345-678;&nbsp; 800-2345-679</span></div>
-<div id="wb_Text6">
-<span style="color:#4EB0CA;font-family:Exo;font-size:20px;">Get In Touch With Us</span></div>
-<div id="wb_Text7">
-<span style="color:#707070;font-family:Exo;font-size:13px;">4578 Marmora Road,Glasgow D04 89GR</span></div>
-<div id="wb_Image4">
-<img src="../images/phone.png" id="Image4" alt=""></div>
-</div>
+<div id="footer" style="
+    top: 2000px;
+"  >
+
+<div id="wb_titre">
+<span style="color:#707070;font-family:Exo;font-size:20px;">COFEE <b>PARK</b></span><span style="color:#000000;font-family:Exo;font-size:27px;"> </span><span style="color:#202020;font-family:Exo;font-size:24px;"><strong>PARK</strong></span></div>
+<div style="
+    text-align: justify;
+" id="wb_presentation">
+<span style="color:#A4A4A4;font-family:Exo;font-size:13px;">World Park est une compagne digital fut de développer une charte graphique, Cette ligne graphique générale a donc pour vocation de renforcer le logotype. Au-delà de la cohérence générale recherchée, cette charte se veut suffisamment souple pour permettre à la diversité des supports de communication d'exister les uns par rapport aux autres. C'est pourquoi, cette charte graphique s'articule autour de 4 grandes parties.</span></div>
+<div id="wb_abonner">
+<span style="color:#707070;font-family:Exo;font-size:20px;">ABONNER-VOUS A <b> NOTRE </br> NEWS LETTER</span></div>
+<div id="wb_contacter">
+<span style="color:#707070;font-family:Exo;font-size:20px;"><b>CONTACTER</b>-NOUS</span></div>
+<div id="wb_telephone">
+<span style="color:#707070;font-family:Exo;font-size:13px;"> TEL : 71 531 745 <br> Adresse : Le Bardoo</span></div>
+<div id="wb_tweeter">
+<img src="images/twitter.png" id="tweeter" alt=""></div>
+<div id="wb_gmail">
+<img src="images/g%2B.png" id="gmail" alt=""></div>
+<iframe id="mee" src="../menuf/"></iframe>
+<div id="wb_facebook">
+<img src="images/fb.png" id="facebook" alt=""></div>
+<hr id="trai">
+<div id="wb_titre2016">
+<span style="color:#A4A4A4;font-family:Exo;font-size:17px;">coffeePark &#0169; 2016.</span></div>
+<form action="index.php" method="POST">
+<textarea name="TextArea1" id="TextArea1" rows="0" cols="26"></textarea>
+<input class="btn shake-little"  type="submit" id="Button1" name="" value="S'abonner">
+</form>
 </div>
 </div>
 </body>
