@@ -359,7 +359,7 @@ function autoResize(id){
 <span style="color:#707070;font-family:Exo;font-size:20px;">ABONNER VOUS A NOTRE <br> NEWS LETTER</span>
 <form action="abonner.php" method="POST">
 <input  name="email" id="TextArea40"type="email" required="required" placeholder="Abonnez-vous">
-<input class="btn shake-little"  name="submit"id="TextArea41" id="TextArea41"type="submit" value="S'abonner">
+<input class="btn shake-little"  name="submit"id="TextArea41" type="submit" value="S'abonner">
 </form>
 </div>
 
@@ -383,19 +383,24 @@ function autoResize(id){
 
 <hr id="Line1">
 <div id="wb_Image18">
-<<<<<<< ee464623035088a01de31ac3ea4eb11c335e02ea
+
 <a href ="https://www.facebook.com/Coffee-Park-1013819342041065/?fref=ts&__mref=message_bubble"><img src="images/fb.png" id="Image18" alt=""></a></div>
 <div id="wb_Image44">
 <a href ="https://myaccount.google.com/intro"><img src="images/g+.png" id="Image44" alt=""></a></div>
+
 <div id="wb_Image45">
 <a href ="https://twitter.com/?lang=fr"><img src="images/twitter.png" id="Image45" alt=""></a></div>
-=======
+
+ <div id="wb_Image43">
 <a  href="https://www.facebook.com/Coffee-Park-1013819342041065/"><img src="images/fb.png" id="Image18" alt=""><a/></div>
+
 <div id="wb_Image44">
-<a  href="https://plus.google.com/u/0/113695750852278247904/posts"><img src="images/g+.png" id="Image44" alt=""><a/></div><
+<a  href="https://plus.google.com/u/0/113695750852278247904/posts"><img src="images/g+.png" id="Image44" alt=""><a/></div>
+
+
 <div id="wb_Image45">
-<a  href="https://www.tweeter.com"><img src="images/twitter.png" id="Image45" alt=""><a/><
->>>>>>> last
+<a  href="https://www.tweeter.com"><img src="images/twitter.png" id="Image45" alt=""><a/>
+
 </div>
 <script>
 function changeme() {

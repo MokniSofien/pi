@@ -14,7 +14,11 @@ $db = mysqli_connect('localhost','root','')  or die('Erreur de connexion '.mysql
      
     mysqli_query($db,$sql) or die('Erreur SQL !'.$sql.'<br>'.mysqli_error($db)); 
 
-     echo '<script type="text/javascript">alert("Merci pour votre confiance")</script>' ;
+	echo '<body onLoad="alert(\'merci pour votre confiance\')">';
+	
+	echo '<meta http-equiv="refresh" content="0;URL=index.php">';
+
+     
 	 
 
     mysqli_close($db);  

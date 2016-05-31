@@ -252,8 +252,8 @@ function autoResize(id){
 <div id="wb_titre2016">
 <span style="color:#A4A4A4;font-family:Exo;font-size:17px;">coffeePark &#0169; 2016.</span></div>
 <form action="abonner.php" method="POST">
-<textarea name="TextArea1" id="TextArea1" rows="0" cols="26"></textarea>
-<input class="btn shake-little"  type="submit" id="Button1" name="" value="S'abonner">
+<input name="email" id="TextArea1" type="email" required="required" placeholder="Abonnez-vous" >
+<input class="btn shake-little"  type="submit" id="Button1" name="submit" value="S'abonner">
 </form>
 </div>
 </div>
