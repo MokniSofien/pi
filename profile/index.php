@@ -1,6 +1,6 @@
 <?phpsession_start?>
 <!doctype html>
-<html>
+<html style="zoom:95%">
 <head>
 <meta charset="utf-8">
 <title>Untitled Page</title
