@@ -1,24 +1,31 @@
 <?php 
+
+$choix=$_POST['radio'];
+
 if(isset($_POST['Valider']))
+	
 {
-	if(isset($_POST['radio1']))
+	if($choix=="visa")
 	{
 		header('location:../paiement_identification/visa_card.html');
 		
 		
 	}
 	
-		if(isset($_POST['radio2']))
+	else if($choix=="paypal")
+		
 	{
 		header('location:../paiement_identification/paypal_card.html');
 		
 		
-	}	if(isset($_POST['radio3']))
+	}	
+	else if($choix=="master")
 	{
 		header('location:../paiement_identification/master_card.html');
 		
 		
-	}	if(isset($_POST['radio4']))
+	}	
+	else if($choix=="discover")
 	{
 		header('location:../paiement_identification/discover_card.html');
 		

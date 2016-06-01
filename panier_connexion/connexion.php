@@ -6,7 +6,8 @@ $password="";
 
 if(isset($_POST['submit']))
 {
-	if(isset($_POST['RadioButton1']))
+	$radio=$_POST['radio'];
+	if($radio=="off")
 	{
 		
 		header ('location:../inscrit/');
@@ -25,7 +26,7 @@ $id=$ligne['id'];
  }
 
 // on teste si nos variables sont définies
-if (isset($_POST['email']) && isset($_POST['pass'])) {
+if ((isset($_POST['email']) && isset($_POST['pass'])) && ($radio=="on")) {
 
 	// on vérifie les informations du formulaire, à savoir si le pseudo saisi est bien un pseudo autorisé, de même pour le mot de passe
 	if ($email == $_POST['email'] && $password == $_POST['pass']) {
@@ -41,8 +42,15 @@ if (isset($_POST['email']) && isset($_POST['pass'])) {
 		$_SESSION['connecte']="ok!!";
 		$_SESSION['id']=$id;
 		// on redirige notre visiteur vers une page de notre section membre
-				header ('location:../panier/panier.php);
+				header ('location:../panier/panier.php?id="'.$id.'"');
 
+	}
+	else{
+		
+		echo '<meta http-equiv="refresh" content="0;URL=page8.html">';
+		echo '<body onLoad="alert(\'L’e-mail ou Le mot de passe entré est incorrect.  \')">';
+		
+		
 	}
 		
 		

@@ -73,12 +73,7 @@ $result=mysqli_query($cxn,$requete);
 </div>
 <div id="Layer1">
 <div id="Layer1_Container">
-<div id="Layer2">
-<div id="wb_Image2">
-<img src="../images/pan.png" id="Image2" alt=""></div>
-<div id="wb_Text1">
-<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>Panier</strong></span></div>
-</div>
+
 <div id="Layer5">
 <div id="Layer5_Container">
 <div id="wb_Image5">
@@ -87,6 +82,14 @@ $result=mysqli_query($cxn,$requete);
 <span style="color:#000000;font-family:Exo;font-size:13px;"><strong>Confirmation</strong></span></div>
 </div>
 </div>
+
+<div id="Layer2">
+<div id="wb_Image2">
+<img src="../images/pan.png" id="Image2" alt=""></div>
+<div id="wb_Text1">
+<span style="color:#000000;font-family:Exo;font-size:13px;"><strong>Panier</strong></span></div>
+</div>
+
 <div id="Layer4">
 <div id="wb_Image4">
 <img src="../images/card.png" id="Image4" alt=""></div>
