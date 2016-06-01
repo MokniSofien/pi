@@ -10,7 +10,7 @@ if(isset($_POST['submit']))
 	if($radio=="off")
 	{
 		
-		header ('location:../inscrit/');
+		header ('location:../inscrit2/');
 
 	}
 	else{

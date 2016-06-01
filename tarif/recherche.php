@@ -7,7 +7,7 @@
 <title>Untitled Page</title>
   
 <link href="fronte.css" rel="stylesheet">
-<link href="blog_ouver.css" rel="stylesheet">
+<link href="../acceuil/blog_ouver.css" rel="stylesheet">
 <link href="../head.css" rel="stylesheet">
 <link href="../pop.css" rel="stylesheet">
 <link href="../foo.css" rel="stylesheet">
@@ -50,7 +50,7 @@ function ValidateLayer3(theForm)
 
 
 
-<div id="Layer4" style="position:absolute;text-align:left;left:30px;top:132px;width:737px;height:890px;z-index:64;">
+<div id="Layer4" style="position:absolute;text-align:left;left:33px;top:132px;width:737px;height:890px;z-index:64;">
    <?php 
    if(isset($_POST['submit'])){
 if(isset($_POST['requete']) && $_POST['requete'] != NULL) // on vérifie d'abord l'existence du POST et aussi si la requete n'est pas vide.
@@ -60,7 +60,7 @@ if(isset($_POST['requete']) && $_POST['requete'] != NULL) // on vérifie d'abord
 $db = mysqli_connect('localhost','root','')  or die('Erreur de connexion '.mysqli_error());
 
     mysqli_select_db($db,'com')  or die('Erreur de selection '.mysqli_error($db)); 
-    $requete="SELECT * FROM article where titre like '%$requete%' limit 3";
+    $requete="SELECT * FROM produit where nom like '%$requete%' ";
 	
 	    $response=mysqli_query($db,$requete);
 	$nb_resultats= mysqli_num_rows($response);
@@ -84,19 +84,19 @@ while($ligne=mysqli_fetch_array($response)){
 <div  id="article">
 
 <div id="wb_Text24" style="position:absolute;left:77px;top:65px;width:568px;height:18px;z-index:36;text-align:left;">
-<span style="color:#000000;font-family:Exo;font-size:15px;"><strong><?php echo $ligne['titre']?></strong></span></div>
+<span style="color:#000000;font-family:Exo;font-size:15px;"><strong><?php echo $ligne['nom']?></strong></span></div>
 <div id="wb_Text25" style="position:absolute;left:111px;top:94px;width:74px;height:16px;z-index:37;text-align:left;">
-<span style="color:#4EB0CA;font-family:Exo;font-size:13px;"><?php echo $ligne['auteur']?></span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:13px;"><?php echo $ligne['prix']?></span></div>
 <div id="wb_Image7" style="position:absolute;left:182px;top:94px;width:15px;height:16px;z-index:38;">
 <img src="../images/cal%20min.png" id="Image7" alt=""></div>
 <div id="wb_Image6" style="position:absolute;left:96px;top:96px;width:13px;height:14px;z-index:39;">
 <img src="../images/min%20admin.png" id="Image6" alt=""></div>
 <div id="wb_Text26" style="position:absolute;left:205px;top:94px;width:102px;height:16px;z-index:40;text-align:left;">
-<span style="color:#4EB0CA;font-family:Exo;font-size:13px;"><?php echo $ligne['date']?></span></div>
+<span style="color:#4EB0CA;font-family:Exo;font-size:13px;"><?php echo $ligne['version']?></span></div>
 <div id="wb_Image8" style="position:absolute;left:77px;top:146px;width:515px;height:304px;z-index:41;">
-<a href="../blog/index.php?id=<?php echo $ligne['id'];?>"><img src="../../admin/imageproduit/<?php echo $ligne['image'];?>"id="Image8" alt="" /><a/></div>
+<a href="../blog/index.php?id=<?php echo $ligne['id'];?>"><img src="../../admin/imageproduit/<?php echo $ligne['image'];?>"style="width:90%" alt="" /><a/></div>
 <div id="wb_Text27" style="position:absolute;    word-wrap: break-word; left:77px;top:465px;width:530px;height:96px;z-index:42;text-align:left;">
-<span style="color:#000000;font-family:Exo;font-size:13px;"><em><?php echo $ligne['text']?></em></span></div>
+<span style="color:#000000;font-family:Exo;font-size:13px;"><em><?php echo $ligne['description']?></em></span></div>
 
 <div id="wb_Text28" style="position:absolute;left:162px;top:619px;width:530px;height:32px;z-index:44;text-align:left;">
 <span style="color:#000000;font-family:Exo;font-size:13px;"><em></em></span></div>
@@ -119,21 +119,6 @@ while($ligne=mysqli_fetch_array($response)){
 </div>
 <!-- header-->
 
-
-<!-- header-->
-<div id="fade" class="black_overlay"></div>
-<div id="fadep" class="black_overlayp"></div>
-<div align="center" style="    margin-left: 10%;
-    width: 900px;
-    margin: auto;
-    position: relative;
-    margin-right: auto;    z-index: 9999; ">   <div id="light" class="white_content"> 
-
-<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><iframe onload="autoResize('myframe')"  id="myframe" scrolling= "yes" style="  border:none;" src="default.html" ></iframe>
-
-<img src="../images/x.png" style="position: absolute; top:-20px;left:-30px ; width:54px;"></a></div>
-		
-		<div id="fade" class="black_overlay"></div></div>
 
 <div id="PageHeader1"style="overflow:none;" >
 <div id="wb_Image1" >
@@ -159,7 +144,7 @@ while($ligne=mysqli_fetch_array($response)){
 
 <div id="Layer2" >
   <form action="recherche.php" method="POST"> 
-<input class="btn shake-little" name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:17px;z-index:0;" rows="0" cols="27"></textarea>
+<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:17px;z-index:0;" rows="0" cols="27"></textarea>
 <div id="wb_Image2" >
 
   <button name="submit" type="submit" value="valider" style=" background-color: transparent; border: none;">
@@ -227,8 +212,6 @@ function autoResize(id){
 
 </div>
 </div>
-</div>
-<!--end header-->
 
 
 
@@ -239,7 +222,9 @@ function autoResize(id){
 
 
 
-<div id="footer"  >
+<div id="footer" style="
+    top: 800px;
+" >
 
 <div id="wb_titre">
 <span style="color:#707070;font-family:Exo;font-size:20px;">COFEE <b>PARK</b></span><span style="color:#000000;font-family:Exo;font-size:27px;"> </span><span style="color:#202020;font-family:Exo;font-size:24px;"><strong>PARK</strong></span></div>

@@ -102,8 +102,8 @@ function ValidateLayer2(theForm)
 <!-- header-->
 
 <!-- header-->
-<a href="../lancement"><input name="submit" type="submit" value="Démarrer votre essai gratuit aujourd'hui!" class="btn"></a>
 
+<!-- header-->
 <div id="fade" class="black_overlay"></div>
 <div id="fadep" class="black_overlayp"></div>
 <div align="center" style="    margin-left: 10%;
@@ -142,7 +142,7 @@ function ValidateLayer2(theForm)
 
 <div id="Layer2" >
   <form action="recherche.php" method="POST"> 
-<input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:17px;z-index:0;" rows="0" cols="27"></textarea>
+<input class="btn shake-little" name="requete" id="TextArea1" style="    padding: 1px; overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:17px;z-index:0;" rows="0" cols="27"></textarea>
 <div id="wb_Image2" >
 
   <button name="submit" type="submit" value="valider" style=" background-color: transparent; border: none;">
@@ -212,7 +212,6 @@ function autoResize(id){
 </div>
 </div>
 <!--end header-->
-
 
 
 
@@ -296,7 +295,7 @@ function autoResize(id){
 <span style="color:#A4A4A4;font-family:Exo;font-size:17px;">coffeePark &#0169; 2016.</span></div>
 <form action="abonner.php" method="POST">
 <input name="email" id="TextArea1" type="email" required="required" placeholder="Abonnez-vous" >
-<input class="btn shake-little"  type="submit" id="Button1" name="submit" value="S'abonner">
+<input class="btn shake-little" style="    padding: inherit;" type="submit" id="Button1" name="submit" value="S'abonner">
 </form>
 </form>
 </div>

@@ -69,7 +69,7 @@ function ValidateLayer2(theForm)
 
 
 <div id="Layer2" >
-  <form action="recherche.php" method="POST"> 
+  <form action="../acceuil/recherche.php" method="POST"> 
 <input name="requete" id="TextArea1" style="overflow: hidden; position:absolute;left:4px;top:7px;width:179px;height:17px;z-index:0;" rows="0" cols="27"></textarea>
 <div id="wb_Image2" >
 

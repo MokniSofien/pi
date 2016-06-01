@@ -194,7 +194,7 @@ function autoResize(id){
 <div id="wb_Text11" style="position:absolute;left:308px;top:60px;width:159px;height:24px;z-index:42;text-align:left;">
 <span style="color:#000000;font-family:Exo;font-size:20px;"><strong>Contacter-Nous</strong></span></div>
 
-<form action="contact_form.php" method="POST">
+<form action="index.php" method="POST">
 <input name="nom" id="TextArea7"type="text" style="position:absolute;left:194px;top:122px;width:352px;height:27px;z-index:43;" rows="0" cols="56" placeholder="Nom :" required="required">
 <input name="email" id="TextArea2" type="email"style="position:absolute;left:194px;top:163px;width:352px;height:27px;z-index:44;" rows="0" cols="56" placeholder="Email :"required="required">
 <input name="phone" id="TextArea3" type="number"style="position:absolute;left:194px;top:204px;width:352px;height:27px;z-index:45;" rows="0" cols="56" placeholder="Tel :"required="required">

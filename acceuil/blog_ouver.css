@@ -1,12 +1,16 @@
 div#container
 {
-   width: 1091px;
+   width: 970px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
+   
 }
 body
+
 {
+	overflow:auto;
+	height:100% ;
    background-color: #FFFFFF;
    color: #000000;
    font-family: Arial;

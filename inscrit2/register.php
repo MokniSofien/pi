@@ -84,9 +84,9 @@ if (mysqli_num_rows($verif_email) != 0)
       $pass=$_POST['pass'];
       $confirm_pass=$_POST['confirm_pass'];
      
-   
-	 echo '<body onLoad="alert(\'Votre inscription a bien été pris en compte.\')">';
-	 echo '<meta http-equiv="refresh" content="0;URL=../connexion/">';
+
+     
+
      
 
      
@@ -95,6 +95,9 @@ if (mysqli_num_rows($verif_email) != 0)
        $sql='INSERT INTO client VALUES("","'.$nom.'","'.$prenom.'","'.$ville.'", "'.$postal.'", "'.$email.'","'.$pass.'", "'.$confirm_pass.'",NOW(),"'.$telephone.'","'.$Image.'",1)';
      $verif = mysqli_query($cxn,$sql);
      
+	 
+	  header('location:cnx.php?number="'.$pass.'"&email='.$email);
+	 
                            } //champs_vide
      
    
